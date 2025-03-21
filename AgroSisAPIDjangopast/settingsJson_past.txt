@@ -1,0 +1,104 @@
+
+
+UPDATE "Trazabilidad_tipo_especie"
+SET "tipo" = 'tomate green zebra',
+    "descripcion" = 'tomate color verde con manchas de diferentes tonos',
+    "tiempo_crecimiento" = 3
+WHERE id = 2;
+C:\Program Files\Memurai\
+
+ejecutar server:
+daphne -p 8000 APIRest.asgi:application
+
+python actualizador.py
+python script\actualizador.py
+
+en Shell:
+from script.actualizador import actualizar_sensores
+actualizar_sensores()
+
+
+$ netstat -ano | findstr :8000
+docker run -d --name redis-container -p 6379:6379 redis
+docker info
+manejo de archivos estaticos
+python manage.py collectstatic
+entorno\Scripts\actívate
+
+INSERT INTO "IoT_sensor" ("nombre_sensor", "tipo_sensor", "unidad_medida", "cultivo", "ubicacion", "valor_min", "valor_max")
+VALUES ('Sensor', 'Digital', 'Kg', 'Tomate', '01', 02, 0.5);
+
+
+
+PRUEBA MODEL
+from django.db import models
+
+class Sensor_iot(models.Model):
+    nombre_sensor = models.CharField(max_length=50)
+    tipo_sensor = models.CharField(max_length=50)
+    unidad_medida = models.CharField(max_length=50)
+    ubicacion = models.FloatField()
+    valor_min = models.FloatField()
+    valor_max = models.FloatField()
+    def __str__(self):
+        return str(self.nombre_sensor)
+
+
+
+'Default nombre_sensor'
+
+
+	PRUEBA
+
+python manage.py shell
+from asgiref.sync import async_to_sync
+from channels.layers import get_channel_layer
+
+channel_layer = get_channel_layer()
+
+async_to_sync(channel_layer.group_send)(
+    "sensor_updates",  # Asegúrate de que el WebSocket está escuchando este grupo
+    {
+        "type": "send_message",  # Este tipo debe coincidir con el manejador en tu Consumer
+        "message": "🔴 Prueba manual desde Django",
+    }
+)
+
+
+PRUEBA 2 EN SHE
+
+from apps.IoT.models import Sensor
+from django.db.models.signals import post_save
+
+for receiver in post_save._live_receivers(Sensor):
+    print(receiver)
+
+
+
+from apps.IoT.models import Sensor
+from django.db.models.signals import post_save
+
+print(post_save._live_receivers(Sensor))
+
+
+
+
+PRUEBAS EN CMD - BASH
+
+from apps.IoT.models import Sensor
+print(type(Sensor))  
+
+
+python ruta/del/script.py
+
+python manage.py runscript nombre_del_script
+
+
+CAMPOS DEL USER:
+
+username
+identificacion
+email
+password
+
+
