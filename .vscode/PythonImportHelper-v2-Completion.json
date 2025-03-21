@@ -1,0 +1,3676 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "ProtocolTypeRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "URLRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "AuthMiddlewareStack",
+        "importPath": "channels.auth",
+        "description": "channels.auth",
+        "isExtraImport": true,
+        "detail": "channels.auth",
+        "documentation": {}
+    },
+    {
+        "label": "es correcto",
+        "importPath": "apps.IoT.socket.routing import websocket_urlpatterns  # Asegúrate de que el",
+        "description": "apps.IoT.socket.routing import websocket_urlpatterns  # Asegúrate de que el",
+        "isExtraImport": true,
+        "detail": "apps.IoT.socket.routing import websocket_urlpatterns  # Asegúrate de que el",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "PagoRouter",
+        "importPath": "apps.Finanzas.routers.PagoRouter",
+        "description": "apps.Finanzas.routers.PagoRouter",
+        "isExtraImport": true,
+        "detail": "apps.Finanzas.routers.PagoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ProduccionRouter",
+        "importPath": "apps.Finanzas.routers.ProduccionRouter",
+        "description": "apps.Finanzas.routers.ProduccionRouter",
+        "isExtraImport": true,
+        "detail": "apps.Finanzas.routers.ProduccionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ResiduoRouter",
+        "importPath": "apps.Finanzas.routers.ResiduoRouter",
+        "description": "apps.Finanzas.routers.ResiduoRouter",
+        "isExtraImport": true,
+        "detail": "apps.Finanzas.routers.ResiduoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "VentaRouter",
+        "importPath": "apps.Finanzas.routers.VentaRouter",
+        "description": "apps.Finanzas.routers.VentaRouter",
+        "isExtraImport": true,
+        "detail": "apps.Finanzas.routers.VentaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "HerramientaRouter",
+        "importPath": "apps.Inventario.routers.HerramientaRouter",
+        "description": "apps.Inventario.routers.HerramientaRouter",
+        "isExtraImport": true,
+        "detail": "apps.Inventario.routers.HerramientaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "InsumoRouter",
+        "importPath": "apps.Inventario.routers.InsumoRouter",
+        "description": "apps.Inventario.routers.InsumoRouter",
+        "isExtraImport": true,
+        "detail": "apps.Inventario.routers.InsumoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioRouter",
+        "importPath": "apps.Inventario.routers.InventarioRouter",
+        "description": "apps.Inventario.routers.InventarioRouter",
+        "isExtraImport": true,
+        "detail": "apps.Inventario.routers.InventarioRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_HerramientaRouter",
+        "importPath": "apps.Inventario.routers.Tipo_HerramientaRouter",
+        "description": "apps.Inventario.routers.Tipo_HerramientaRouter",
+        "isExtraImport": true,
+        "detail": "apps.Inventario.routers.Tipo_HerramientaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_InsumoRouter",
+        "importPath": "apps.Inventario.routers.Tipo_InsumoRouter",
+        "description": "apps.Inventario.routers.Tipo_InsumoRouter",
+        "isExtraImport": true,
+        "detail": "apps.Inventario.routers.Tipo_InsumoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ConfiguracionRouter",
+        "importPath": "apps.IoT.routers.ConfiguracionRouter",
+        "description": "apps.IoT.routers.ConfiguracionRouter",
+        "isExtraImport": true,
+        "detail": "apps.IoT.routers.ConfiguracionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "SensorRouter",
+        "importPath": "apps.IoT.routers.SensorRouter",
+        "description": "apps.IoT.routers.SensorRouter",
+        "isExtraImport": true,
+        "detail": "apps.IoT.routers.SensorRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_SensorRouter",
+        "importPath": "apps.IoT.routers.Tipo_SensorRouter",
+        "description": "apps.IoT.routers.Tipo_SensorRouter",
+        "isExtraImport": true,
+        "detail": "apps.IoT.routers.Tipo_SensorRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ActividadRouter",
+        "importPath": "apps.Trazabilidad.routers.ActividadRouter",
+        "description": "apps.Trazabilidad.routers.ActividadRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.ActividadRouter",
+        "documentation": {}
+    },
+    {
+        "label": "AfeccionRouter",
+        "importPath": "apps.Trazabilidad.routers.AfeccionRouter",
+        "description": "apps.Trazabilidad.routers.AfeccionRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.AfeccionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Asignacion_ActividadRouter",
+        "importPath": "apps.Trazabilidad.routers.Asignacion_ActividadRouter",
+        "description": "apps.Trazabilidad.routers.Asignacion_ActividadRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.Asignacion_ActividadRouter",
+        "documentation": {}
+    },
+    {
+        "label": "BancalRouter",
+        "importPath": "apps.Trazabilidad.routers.BancalRouter",
+        "description": "apps.Trazabilidad.routers.BancalRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.BancalRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ControlRouter",
+        "importPath": "apps.Trazabilidad.routers.ControlRouter",
+        "description": "apps.Trazabilidad.routers.ControlRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.ControlRouter",
+        "documentation": {}
+    },
+    {
+        "label": "CultivoRouter",
+        "importPath": "apps.Trazabilidad.routers.CultivoRouter",
+        "description": "apps.Trazabilidad.routers.CultivoRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.CultivoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "EspecieRouter",
+        "importPath": "apps.Trazabilidad.routers.EspecieRouter",
+        "description": "apps.Trazabilidad.routers.EspecieRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.EspecieRouter",
+        "documentation": {}
+    },
+    {
+        "label": "LoteRouter",
+        "importPath": "apps.Trazabilidad.routers.LoteRouter",
+        "description": "apps.Trazabilidad.routers.LoteRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.LoteRouter",
+        "documentation": {}
+    },
+    {
+        "label": "NotificacionRouter",
+        "importPath": "apps.Trazabilidad.routers.NotificacionRouter",
+        "description": "apps.Trazabilidad.routers.NotificacionRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.NotificacionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "PlagaRouter",
+        "importPath": "apps.Trazabilidad.routers.PlagaRouter",
+        "description": "apps.Trazabilidad.routers.PlagaRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.PlagaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "SemilleroRouter",
+        "importPath": "apps.Trazabilidad.routers.SemilleroRouter",
+        "description": "apps.Trazabilidad.routers.SemilleroRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.SemilleroRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_EspecieRouter",
+        "importPath": "apps.Trazabilidad.routers.Tipo_EspecieRouter",
+        "description": "apps.Trazabilidad.routers.Tipo_EspecieRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.Tipo_EspecieRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_PlagaRouter",
+        "importPath": "apps.Trazabilidad.routers.Tipo_PlagaRouter",
+        "description": "apps.Trazabilidad.routers.Tipo_PlagaRouter",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.routers.Tipo_PlagaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioRouter",
+        "importPath": "apps.Users.routers.UsuarioRouter",
+        "description": "apps.Users.routers.UsuarioRouter",
+        "isExtraImport": true,
+        "detail": "apps.Users.routers.UsuarioRouter",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "Asignacion_Actividad",
+        "importPath": "apps.Trazabilidad.models.Asignacion_Actividad",
+        "description": "apps.Trazabilidad.models.Asignacion_Actividad",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.models.Asignacion_Actividad",
+        "documentation": {}
+    },
+    {
+        "label": "Cultivo",
+        "importPath": "apps.Trazabilidad.models.Cultivo",
+        "description": "apps.Trazabilidad.models.Cultivo",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.models.Cultivo",
+        "documentation": {}
+    },
+    {
+        "label": "Cultivo",
+        "importPath": "apps.Trazabilidad.models.Cultivo",
+        "description": "apps.Trazabilidad.models.Cultivo",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.models.Cultivo",
+        "documentation": {}
+    },
+    {
+        "label": "Cultivo",
+        "importPath": "apps.Trazabilidad.models.Cultivo",
+        "description": "apps.Trazabilidad.models.Cultivo",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.models.Cultivo",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "apps.Users.models",
+        "description": "apps.Users.models",
+        "isExtraImport": true,
+        "detail": "apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "apps.Users.models",
+        "description": "apps.Users.models",
+        "isExtraImport": true,
+        "detail": "apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "apps.Users.models",
+        "description": "apps.Users.models",
+        "isExtraImport": true,
+        "detail": "apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "apps.Users.models",
+        "description": "apps.Users.models",
+        "isExtraImport": true,
+        "detail": "apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "Bancal",
+        "importPath": "apps.Trazabilidad.models.Bancal",
+        "description": "apps.Trazabilidad.models.Bancal",
+        "isExtraImport": true,
+        "detail": "apps.Trazabilidad.models.Bancal",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncWebsocketConsumer",
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
+        "isExtraImport": true,
+        "detail": "channels.generic.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "SensorConsumer",
+        "importPath": "apps.IoT.socket.consumers",
+        "description": "apps.IoT.socket.consumers",
+        "isExtraImport": true,
+        "detail": "apps.IoT.socket.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "Sensor",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sensor",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
+        "label": "Configuracion",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sensor",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
+        "label": "Configuracion",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
+        "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "sync_to_async",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "sync_to_async",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "get_channel_layer",
+        "importPath": "channels.layers",
+        "description": "channels.layers",
+        "isExtraImport": true,
+        "detail": "channels.layers",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "websockets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "websockets",
+        "description": "websockets",
+        "detail": "websockets",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Inventario",
+        "importPath": "apps.Inventario.models.Inventario",
+        "description": "apps.Inventario.models.Inventario",
+        "isExtraImport": true,
+        "detail": "apps.Inventario.models.Inventario",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.asgi",
+        "description": "AgroSisAPIDjangopast.APIRest.asgi",
+        "peekOfCode": "application = ProtocolTypeRouter(\n    {\n        \"http\": get_asgi_application(),\n        \"websocket\": AuthMiddlewareStack(\n            URLRouter(websocket_urlpatterns)\n        ),\n    }\n)",
+        "detail": "AgroSisAPIDjangopast.APIRest.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-_shvkqv=2lfr+55zwk#9^26jwr=@*(dd@ly9j!_0wp!r6dnrg0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-_shvkqv=2lfr+55zwk#9^26jwr=@*(dd@ly9j!_0wp!r6dnrg0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\", \n    \"django.contrib.sessions\",",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\", \n]\nCORS_ALLOW_CREDENTIALS = True  # Permitir credenciales (cookies, auth headers)\nCORS_ALLOW_METHODS = [\"GET\", \"POST\", \"PUT\", \"PATCH\", \"DELETE\", \"OPTIONS\"]\nCORS_ALLOW_HEADERS = [\"Authorization\", \"Content-Type\"]\nROOT_URLCONF = 'APIRest.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True  # Permitir credenciales (cookies, auth headers)\nCORS_ALLOW_METHODS = [\"GET\", \"POST\", \"PUT\", \"PATCH\", \"DELETE\", \"OPTIONS\"]\nCORS_ALLOW_HEADERS = [\"Authorization\", \"Content-Type\"]\nROOT_URLCONF = 'APIRest.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = [\"GET\", \"POST\", \"PUT\", \"PATCH\", \"DELETE\", \"OPTIONS\"]\nCORS_ALLOW_HEADERS = [\"Authorization\", \"Content-Type\"]\nROOT_URLCONF = 'APIRest.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_HEADERS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "CORS_ALLOW_HEADERS = [\"Authorization\", \"Content-Type\"]\nROOT_URLCONF = 'APIRest.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "ROOT_URLCONF = 'APIRest.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'APIRest.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'agrosis_proyecto',\n        'USER': 'postgres',\n        'PASSWORD': 'hate',\n        'HOST': 'localhost',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'agrosis_proyecto',\n        'USER': 'postgres',\n        'PASSWORD': 'hate',\n        'HOST': 'localhost',\n        'PORT': '5432'\n    }\n}",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nSIMPLE_JWT = {",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nSIMPLE_JWT = {\n   'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=720),\n   'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=7), \n}",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nSIMPLE_JWT = {\n   'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=720),\n   'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=7), \n}\nAUTH_USER_MODEL = 'Users.Usuario'",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n   'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=720),\n   'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=7), \n}\nAUTH_USER_MODEL = 'Users.Usuario'\nASGI_APPLICATION = \"APIRest.asgi.application\"\nCHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels.layers.InMemoryChannelLayer\",  \n    },",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'Users.Usuario'\nASGI_APPLICATION = \"APIRest.asgi.application\"\nCHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels.layers.InMemoryChannelLayer\",  \n    },\n}\n# CHANNEL_LAYERS = {\n#     \"default\": {\n#         \"BACKEND\": \"channels_redis.core.RedisChannelLayer\",",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "ASGI_APPLICATION = \"APIRest.asgi.application\"\nCHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels.layers.InMemoryChannelLayer\",  \n    },\n}\n# CHANNEL_LAYERS = {\n#     \"default\": {\n#         \"BACKEND\": \"channels_redis.core.RedisChannelLayer\",\n#         \"CONFIG\": {",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.settings",
+        "description": "AgroSisAPIDjangopast.APIRest.settings",
+        "peekOfCode": "CHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels.layers.InMemoryChannelLayer\",  \n    },\n}\n# CHANNEL_LAYERS = {\n#     \"default\": {\n#         \"BACKEND\": \"channels_redis.core.RedisChannelLayer\",\n#         \"CONFIG\": {\n#             \"hosts\": [(\"127.0.0.1\", 6379)],",
+        "detail": "AgroSisAPIDjangopast.APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.urls",
+        "description": "AgroSisAPIDjangopast.APIRest.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n   openapi.Info(\n      title=\"Snippets API\",\n      default_version='v1',\n      description=\"Test description\",\n      terms_of_service=\"https://www.google.com/policies/terms/\",\n      contact=openapi.Contact(email=\"contact@snippets.local\"),\n      license=openapi.License(name=\"BSD License\"),\n   ),\n   public=True,",
+        "detail": "AgroSisAPIDjangopast.APIRest.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.urls",
+        "description": "AgroSisAPIDjangopast.APIRest.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    #URLs de JWT\n    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    # URLs de usuario\n    path('api/', include(UsuarioRouter.urls)),\n    #URLs de Swagger\n    path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),\n    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),",
+        "detail": "AgroSisAPIDjangopast.APIRest.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.APIRest.wsgi",
+        "description": "AgroSisAPIDjangopast.APIRest.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "AgroSisAPIDjangopast.APIRest.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0001_initial",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Pago',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('cantidad', models.IntegerField()),",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0002_initial",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0002_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Finanzas', '0001_initial'),\n        ('Trazabilidad', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='pago',\n            name='fk_asignacion_actividad',",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0002_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0003_initial",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0003_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Finanzas', '0002_initial'),\n        ('Trazabilidad', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='produccion',",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.migrations.0003_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Pago",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.models.Pago",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.models.Pago",
+        "peekOfCode": "class Pago(models.Model):\n    fk_asignacion_actividad = models.ForeignKey(Asignacion_Actividad,on_delete=models.SET_NULL,null=True)\n    cantidad = models.IntegerField()\n    fecha = models.DateField()\n    def __str__(self):\n        return self.fecha",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.models.Pago",
+        "documentation": {}
+    },
+    {
+        "label": "Produccion",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.models.Produccion",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.models.Produccion",
+        "peekOfCode": "class Produccion(models.Model):\n    fk_cultivo = models.ForeignKey(Cultivo,on_delete=models.SET_NULL,null=True)\n    fk_usuario = models.ForeignKey(Usuario,on_delete=models.SET_NULL,null=True)\n    nombre = models.CharField(max_length=20)\n    precio = models.IntegerField()\n    contenido = models.IntegerField()\n    unidades = models.IntegerField()\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.models.Produccion",
+        "documentation": {}
+    },
+    {
+        "label": "Residuo",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.models.Residuo",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.models.Residuo",
+        "peekOfCode": "class Residuo(models.Model):\n    cantidad = models.IntegerField()\n    tipo_residuo = models.IntegerField()\n    fk_cultivo = models.ForeignKey(Cultivo,on_delete=models.SET_NULL,null=True)\n    def __str__(self):\n        return str(self.tipo_residuo) + str(self.cantidad)",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.models.Residuo",
+        "documentation": {}
+    },
+    {
+        "label": "Venta",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.models.Venta",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.models.Venta",
+        "peekOfCode": "class Venta(models.Model):\n    fk_produccion = models.ForeignKey(Produccion,on_delete=models.SET_NULL,null=True)\n    precio_unitario = models.IntegerField()\n    cantidad_produccion = models.IntegerField()\n    fecha = models.DateField()\n    def __str__(self):\n        return str(self.precio_unitario) + str(self.fecha)",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.models.Venta",
+        "documentation": {}
+    },
+    {
+        "label": "PagoRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.routers.PagoRouter",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.routers.PagoRouter",
+        "peekOfCode": "PagoRouter = DefaultRouter()\nPagoRouter.register(prefix='pago',viewset=PagoViews,basename='pago')",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.routers.PagoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ProduccionRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.routers.ProduccionRouter",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.routers.ProduccionRouter",
+        "peekOfCode": "ProduccionRouter = DefaultRouter()\nProduccionRouter.register(prefix='produccion',viewset=ProduccionViews,basename='produccion')",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.routers.ProduccionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ResiduoRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.routers.ResiduoRouter",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.routers.ResiduoRouter",
+        "peekOfCode": "ResiduoRouter = DefaultRouter()\nResiduoRouter.register(prefix='residuo',viewset=ResiduoViews,basename='residuo')",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.routers.ResiduoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "VentaRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.routers.VentaRouter",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.routers.VentaRouter",
+        "peekOfCode": "VentaRouter = DefaultRouter()\nVentaRouter.register(prefix='venta',viewset=VentaViews,basename='venta')",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.routers.VentaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "PagoSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.serializers.PagoSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.serializers.PagoSerializer",
+        "peekOfCode": "class PagoSerializer(ModelSerializer):\n    class Meta:\n        model = Pago\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.serializers.PagoSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "ProduccionSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.serializers.ProduccionSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.serializers.ProduccionSerializer",
+        "peekOfCode": "class ProduccionSerializer(ModelSerializer):\n    class Meta:\n        model = Produccion\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.serializers.ProduccionSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "ResiduoSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.serializers.ResiduoSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.serializers.ResiduoSerializer",
+        "peekOfCode": "class ResiduoSerializer(ModelSerializer):\n    class Meta:\n        model = Residuo\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.serializers.ResiduoSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "VentaSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.serializers.VentaSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.serializers.VentaSerializer",
+        "peekOfCode": "class VentaSerializer(ModelSerializer):\n    class Meta:\n        model = Venta\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.serializers.VentaSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "PagoViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.views.PagoViews",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.views.PagoViews",
+        "peekOfCode": "class PagoViews(ModelViewSet):\n    queryset = Pago.objects.all()\n    serializer_class = PagoSerializer\n    permission_classes = [IsAdminUser]",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.views.PagoViews",
+        "documentation": {}
+    },
+    {
+        "label": "ProduccionViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.views.ProduccionViews",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.views.ProduccionViews",
+        "peekOfCode": "class ProduccionViews(ModelViewSet):\n    queryset = Produccion.objects.all()\n    serializer_class = ProduccionSerializer\n    permission_classes = [IsAdminUser]",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.views.ProduccionViews",
+        "documentation": {}
+    },
+    {
+        "label": "ResiduoViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.views.ResiduoViews",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.views.ResiduoViews",
+        "peekOfCode": "class ResiduoViews(ModelViewSet):\n    queryset = Residuo.objects.all()\n    serializer_class = ResiduoSerializer\n    permission_classes = [IsAdminUser]",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.views.ResiduoViews",
+        "documentation": {}
+    },
+    {
+        "label": "VentaViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.views.VentaViews",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.views.VentaViews",
+        "peekOfCode": "class VentaViews(ModelViewSet):\n    queryset = Venta.objects.all()\n    serializer_class = VentaSerializer\n    permission_classes = [IsAdminUser]",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.views.VentaViews",
+        "documentation": {}
+    },
+    {
+        "label": "FinanzasConfig",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Finanzas.apps",
+        "description": "AgroSisAPIDjangopast.apps.Finanzas.apps",
+        "peekOfCode": "class FinanzasConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'apps.Finanzas'",
+        "detail": "AgroSisAPIDjangopast.apps.Finanzas.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.migrations.0001_initial",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Herramienta',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nombre', models.CharField(max_length=100)),",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Herramienta",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.models.Herramienta",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.models.Herramienta",
+        "peekOfCode": "class Herramienta(models.Model):\n    fk_tipo_herramienta = models.ForeignKey(Tipo_Herramienta,on_delete=models.SET_NULL,null=True)\n    nombre = models.CharField(max_length=100)\n    unidades = models.IntegerField()\n    precioCU = models.FloatField()\n    estado = models.BooleanField(default=True)\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.models.Herramienta",
+        "documentation": {}
+    },
+    {
+        "label": "Insumo",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.models.Insumo",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.models.Insumo",
+        "peekOfCode": "class Insumo(models.Model):\n    fk_tipo_insumo = models.ForeignKey(Tipo_Insumo,on_delete=models.SET_NULL,null=True)\n    cantidad = models.IntegerField()\n    precio = models.IntegerField()\n    tipo_empacado = models.CharField(max_length=200)\n    tipo = models.CharField(max_length=100)\n    unidadMedida = models.CharField(max_length=10)\n    def __str__(self):\n        return self.tipo",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.models.Insumo",
+        "documentation": {}
+    },
+    {
+        "label": "Inventario",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.models.Inventario",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.models.Inventario",
+        "peekOfCode": "class Inventario(models.Model):\n    fk_herramienta = models.ForeignKey(Herramienta,on_delete=models.SET_NULL,null=True)\n    fk_insumo = models.ForeignKey(Insumo,on_delete=models.SET_NULL,null=True)\n    def __str__(self):\n        return str(self.fk_herramienta) + str(self.fk_insumo)",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.models.Inventario",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_Herramienta",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.models.Tipo_Herramienta",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.models.Tipo_Herramienta",
+        "peekOfCode": "class Tipo_Herramienta(models.Model):\n    tipo = models.CharField(max_length=30)\n    def __str__(self):\n        return self.tipo",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.models.Tipo_Herramienta",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_Insumo",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.models.Tipo_Insumo",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.models.Tipo_Insumo",
+        "peekOfCode": "class Tipo_Insumo(models.Model):\n    tipo = models.CharField(max_length=30)\n    def __str__(self):\n        return self.tipo",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.models.Tipo_Insumo",
+        "documentation": {}
+    },
+    {
+        "label": "HerramientaRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.routers.HerramientaRouter",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.routers.HerramientaRouter",
+        "peekOfCode": "HerramientaRouter = DefaultRouter()\nHerramientaRouter.register(prefix='herramienta',viewset=HerramientaViews,basename='herramienta')",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.routers.HerramientaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "InsumoRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.routers.InsumoRouter",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.routers.InsumoRouter",
+        "peekOfCode": "InsumoRouter = DefaultRouter()\nInsumoRouter.register(prefix='insumo', viewset=InsumoViews, basename='insumo')",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.routers.InsumoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.routers.InventarioRouter",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.routers.InventarioRouter",
+        "peekOfCode": "InventarioRouter = DefaultRouter()\nInventarioRouter.register(prefix='inventario', viewset=InventarioViews, basename='inventario')",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.routers.InventarioRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_HerramientaRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.routers.Tipo_HerramientaRouter",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.routers.Tipo_HerramientaRouter",
+        "peekOfCode": "Tipo_HerramientaRouter = DefaultRouter()\nTipo_HerramientaRouter.register(prefix='tipo_herramienta', viewset=Tipo_HerramientaViews, basename='tipo_herramienta')",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.routers.Tipo_HerramientaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_InsumoRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.routers.Tipo_InsumoRouter",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.routers.Tipo_InsumoRouter",
+        "peekOfCode": "Tipo_InsumoRouter = DefaultRouter()\nTipo_InsumoRouter.register(prefix='tipo_insumo', viewset=Tipo_InsumoViews, basename='tipo_insumo')",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.routers.Tipo_InsumoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "HerramientaSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.serializers.HerramientaSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.serializers.HerramientaSerializer",
+        "peekOfCode": "class HerramientaSerializer(ModelSerializer):\n    class Meta:\n        model = Herramienta\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.serializers.HerramientaSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "InsumoSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.serializers.InsumoSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.serializers.InsumoSerializer",
+        "peekOfCode": "class InsumoSerializer(ModelSerializer):\n    class Meta:\n        model = Insumo\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.serializers.InsumoSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.serializers.InventarioSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.serializers.InventarioSerializer",
+        "peekOfCode": "class InventarioSerializer(ModelSerializer):\n    class Meta:\n        model = Inventario\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.serializers.InventarioSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_HerramientaSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.serializers.Tipo_HerramientaSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.serializers.Tipo_HerramientaSerializer",
+        "peekOfCode": "class Tipo_HerramientaSerializer(ModelSerializer):\n    class Meta:\n        model = Tipo_Herramienta\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.serializers.Tipo_HerramientaSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_InsumoSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.serializers.Tipo_InsumoSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.serializers.Tipo_InsumoSerializer",
+        "peekOfCode": "class Tipo_InsumoSerializer(ModelSerializer):\n    class Meta:\n        model = Tipo_Insumo\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.serializers.Tipo_InsumoSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "HerramientaViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.views.HerramientaViews",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.views.HerramientaViews",
+        "peekOfCode": "class HerramientaViews(ModelViewSet):\n    queryset = Herramienta.objects.all()\n    serializer_class = HerramientaSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.views.HerramientaViews",
+        "documentation": {}
+    },
+    {
+        "label": "InsumoViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.views.InsumoViews",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.views.InsumoViews",
+        "peekOfCode": "class InsumoViews(ModelViewSet):\n    queryset = Insumo.objects.all()\n    serializer_class = InsumoSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.views.InsumoViews",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.views.InventarioViews",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.views.InventarioViews",
+        "peekOfCode": "class InventarioViews(ModelViewSet):\n    queryset = Inventario.objects.all()\n    serializer_class = InventarioSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.views.InventarioViews",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_HerramientaViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.views.Tipo_HerramientaViews",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.views.Tipo_HerramientaViews",
+        "peekOfCode": "class Tipo_HerramientaViews(ModelViewSet):\n    queryset = Tipo_Herramienta.objects.all()\n    serializer_class = Tipo_HerramientaSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.views.Tipo_HerramientaViews",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_InsumoViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.views.Tipo_InsumoViews",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.views.Tipo_InsumoViews",
+        "peekOfCode": "class Tipo_InsumoViews(ModelViewSet):\n    queryset = Tipo_Insumo.objects.all()\n    serializer_class = Tipo_InsumoSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.views.Tipo_InsumoViews",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioConfig",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Inventario.apps",
+        "description": "AgroSisAPIDjangopast.apps.Inventario.apps",
+        "peekOfCode": "class InventarioConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'apps.Inventario'",
+        "detail": "AgroSisAPIDjangopast.apps.Inventario.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0001_initial",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Configuracion',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('tipo_cultivo', models.CharField(max_length=100)),",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0002_initial",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0002_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('IoT', '0001_initial'),\n        ('Trazabilidad', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='sensor',\n            name='fk_bancal',",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0002_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0003_remove_sensor_fk_bancal_and_more",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0003_remove_sensor_fk_bancal_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('IoT', '0002_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='sensor',\n            name='fk_bancal',\n        ),\n        migrations.RemoveField(",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0003_remove_sensor_fk_bancal_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0004_sensor_cultivo",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0004_sensor_cultivo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('IoT', '0003_remove_sensor_fk_bancal_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='sensor',\n            name='cultivo',\n            field=models.CharField(default='Default cultivo', max_length=50),\n        ),",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0004_sensor_cultivo",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0005_remove_sensor_cultivo_remove_sensor_nombre_sensor_and_more",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0005_remove_sensor_cultivo_remove_sensor_nombre_sensor_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('IoT', '0004_sensor_cultivo'),\n        ('Trazabilidad', '0002_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='sensor',\n            name='cultivo',\n        ),",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0005_remove_sensor_cultivo_remove_sensor_nombre_sensor_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0006_sensor_fk_cultivo",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0006_sensor_fk_cultivo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('IoT', '0005_remove_sensor_cultivo_remove_sensor_nombre_sensor_and_more'),\n        ('Trazabilidad', '0002_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='sensor',\n            name='fk_cultivo',\n            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, to='Trazabilidad.cultivo'),",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0006_sensor_fk_cultivo",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.migrations.0007_sensor_medicion_alter_configuracion_valor_max_and_more",
+        "description": "AgroSisAPIDjangopast.apps.IoT.migrations.0007_sensor_medicion_alter_configuracion_valor_max_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('IoT', '0006_sensor_fk_cultivo'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='sensor',\n            name='medicion',\n            field=models.DecimalField(decimal_places=2, default=0.0, max_digits=10),\n        ),",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.migrations.0007_sensor_medicion_alter_configuracion_valor_max_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Configuracion",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.models.Configuracion_model",
+        "description": "AgroSisAPIDjangopast.apps.IoT.models.Configuracion_model",
+        "peekOfCode": "class Configuracion(models.Model):\n    tipo_cultivo = models.CharField(max_length=100)\n    tipo_sensor = models.CharField(max_length=100)\n    valor_min =  models.DecimalField(max_digits=10, decimal_places=2) \n    valor_max =  models.DecimalField(max_digits=10, decimal_places=2) \n    def __str__(self):\n        return str(self.valor_min) + str(self.valor_max)",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.models.Configuracion_model",
+        "documentation": {}
+    },
+    {
+        "label": "Sensor",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.models.Sensor_model",
+        "description": "AgroSisAPIDjangopast.apps.IoT.models.Sensor_model",
+        "peekOfCode": "class Sensor(models.Model):\n    fk_bancal = models.ForeignKey(Bancal,on_delete=models.SET_NULL,null=True)\n    fk_tipo_sensor = models.ForeignKey(Tipo_Sensor,on_delete=models.SET_NULL,null=True)\n    fk_configuracion = models.ForeignKey(Configuracion,on_delete=models.SET_NULL,null=True)\n    fk_cultivo = models.ForeignKey(Cultivo,on_delete=models.SET_NULL,null=True)\n    medicion = models.DecimalField(max_digits=10, decimal_places=2, default=0.0)\n    def __str__(self):\n        return str(self.fk_tipo_sensor) + str(self.fk_bancal) + str(self.fk_cultivo) + str(self.fk_configuracion) + str(self.medicion)",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.models.Sensor_model",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_Sensor",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.models.Tipo_Sensor_model",
+        "description": "AgroSisAPIDjangopast.apps.IoT.models.Tipo_Sensor_model",
+        "peekOfCode": "class Tipo_Sensor(models.Model):\n    nombre = models.CharField(max_length=100)\n    tipo = models.TextField(max_length=500)\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.models.Tipo_Sensor_model",
+        "documentation": {}
+    },
+    {
+        "label": "ConfiguracionRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.routers.ConfiguracionRouter",
+        "description": "AgroSisAPIDjangopast.apps.IoT.routers.ConfiguracionRouter",
+        "peekOfCode": "ConfiguracionRouter = DefaultRouter()\nConfiguracionRouter.register(prefix='configuracion',viewset=ConfiguracionViews,basename='configuracion')",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.routers.ConfiguracionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "SensorRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.routers.SensorRouter",
+        "description": "AgroSisAPIDjangopast.apps.IoT.routers.SensorRouter",
+        "peekOfCode": "SensorRouter = DefaultRouter()\nSensorRouter.register(prefix='sensor',viewset=SensorViews,basename='sensor')",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.routers.SensorRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_SensorRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.routers.Tipo_SensorRouter",
+        "description": "AgroSisAPIDjangopast.apps.IoT.routers.Tipo_SensorRouter",
+        "peekOfCode": "Tipo_SensorRouter = DefaultRouter()\nTipo_SensorRouter.register(prefix='tiposensor',viewset=Tipo_SensorViews,basename='tiposensor')",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.routers.Tipo_SensorRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ConfiguracionSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.serializers.ConfiguracionSerializer",
+        "description": "AgroSisAPIDjangopast.apps.IoT.serializers.ConfiguracionSerializer",
+        "peekOfCode": "class ConfiguracionSerializer(ModelSerializer):\n    class Meta:\n        model = Configuracion\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.serializers.ConfiguracionSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "SensorSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.serializers.SensorSerializer",
+        "description": "AgroSisAPIDjangopast.apps.IoT.serializers.SensorSerializer",
+        "peekOfCode": "class SensorSerializer(ModelSerializer):\n    class Meta:\n        model = Sensor\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.serializers.SensorSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_SensorSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.serializers.Tipo_SensorSerializer",
+        "description": "AgroSisAPIDjangopast.apps.IoT.serializers.Tipo_SensorSerializer",
+        "peekOfCode": "class Tipo_SensorSerializer(ModelSerializer):\n    class Meta:\n        model = Tipo_Sensor\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.serializers.Tipo_SensorSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "SensorConsumer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.socket.consumers",
+        "description": "AgroSisAPIDjangopast.apps.IoT.socket.consumers",
+        "peekOfCode": "class SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        await self.channel_layer.group_add(\"sensor_updates\", self.channel_name)\n        await self.accept()\n        print(\"🔵 WebSocket conectado y unido al grupo 'sensor_updates'\")\n    async def disconnect(self, close_code):\n        await self.channel_layer.group_discard(\"sensor_updates\", self.channel_name)\n        print(\"🔴 WebSocket desconectado\")\n    async def send_message(self, event):\n        message = event[\"message\"]",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.socket.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_urlpatterns",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.socket.routing",
+        "description": "AgroSisAPIDjangopast.apps.IoT.socket.routing",
+        "peekOfCode": "websocket_urlpatterns = [\n    re_path(r\"ws/sensor/$\", SensorConsumer.as_asgi()),\n]",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.socket.routing",
+        "documentation": {}
+    },
+    {
+        "label": "send_ws_message_on_create",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.socket.signals",
+        "description": "AgroSisAPIDjangopast.apps.IoT.socket.signals",
+        "peekOfCode": "def send_ws_message_on_create(sender, instance, created, **kwargs):\n    \"\"\" Envía un mensaje al WebSocket cuando se crea un nuevo sensor \"\"\"\n    if created:  # Solo se ejecuta en la creación (POST)\n        channel_layer = get_channel_layer()\n        sensor_details = {\n            \"Sensor registrado:\": str(instance.fk_tipo_sensor),\n            \"Ubicacion:\": str(instance.fk_bancal),\n            \"Cultivo\": str(instance.fk_cultivo)\n        }\n        async_to_sync(channel_layer.group_send)(",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.socket.signals",
+        "documentation": {}
+    },
+    {
+        "label": "send_ws_message_on_update",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.socket.signals",
+        "description": "AgroSisAPIDjangopast.apps.IoT.socket.signals",
+        "peekOfCode": "def send_ws_message_on_update(sender, instance, created, **kwargs):\n    \"\"\" Envía un mensaje al WebSocket cuando se actualiza un sensor \"\"\"\n    if not created:  # Solo se ejecuta en la actualización (PUT)\n        channel_layer = get_channel_layer()\n        sensor_details = {\n            \"Sensor\": str(instance.fk_tipo_sensor),\n            \"Ubicacion\": str(instance.fk_bancal),\n            \"Cultivo\": str(instance.fk_cultivo),\n            \"Valores obtenidos:\": str(instance.fk_configuracion)\n        }",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.socket.signals",
+        "documentation": {}
+    },
+    {
+        "label": "ConfiguracionViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.views.ConfiguracionViews",
+        "description": "AgroSisAPIDjangopast.apps.IoT.views.ConfiguracionViews",
+        "peekOfCode": "class ConfiguracionViews(ModelViewSet):\n    queryset = Configuracion.objects.all()\n    serializer_class = ConfiguracionSerializer\n    permission_classes = [IsAuthenticated]",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.views.ConfiguracionViews",
+        "documentation": {}
+    },
+    {
+        "label": "SensorViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.views.SensorViews",
+        "description": "AgroSisAPIDjangopast.apps.IoT.views.SensorViews",
+        "peekOfCode": "class SensorViews(ModelViewSet):\n    queryset = Sensor.objects.all()\n    serializer_class = SensorSerializer\n    permission_classes = [IsAuthenticated]",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.views.SensorViews",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_SensorViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.views.Tipo_SensorViews",
+        "description": "AgroSisAPIDjangopast.apps.IoT.views.Tipo_SensorViews",
+        "peekOfCode": "class Tipo_SensorViews(ModelViewSet):\n    queryset = Tipo_Sensor.objects.all()\n    serializer_class = Tipo_SensorSerializer\n    permission_classes = [IsAuthenticated]",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.views.Tipo_SensorViews",
+        "documentation": {}
+    },
+    {
+        "label": "IotConfig",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.IoT.apps",
+        "description": "AgroSisAPIDjangopast.apps.IoT.apps",
+        "peekOfCode": "class IotConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'apps.IoT'\n    def ready(self):\n        from apps.IoT.models import Sensor\n        from apps.IoT.socket.signals import send_ws_message_on_create, send_ws_message_on_update  # Importar las señales\n        # Conectar las señales para POST y PUT\n        post_save.connect(send_ws_message_on_create, sender=Sensor)\n        post_save.connect(send_ws_message_on_update, sender=Sensor)\n        print(\"✅ Señales post_save conectadas correctamente\")",
+        "detail": "AgroSisAPIDjangopast.apps.IoT.apps",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_sensores",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "description": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "peekOfCode": "def obtener_sensores():\n    print(\"Obteniendo sensores...\")\n    return list(Sensor.objects.select_related(\"fk_configuracion\").all())\n@sync_to_async\ndef guardar_medicion(sensor, valor):\n    print(f\"Guardando medición para el sensor {sensor.id}: {valor}\")\n    sensor.medicion = valor\n    sensor.save()\n    return sensor\nasync def send_random_data():",
+        "detail": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "guardar_medicion",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "description": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "peekOfCode": "def guardar_medicion(sensor, valor):\n    print(f\"Guardando medición para el sensor {sensor.id}: {valor}\")\n    sensor.medicion = valor\n    sensor.save()\n    return sensor\nasync def send_random_data():\n    print(\"Enviando datos a WebSocket...\")\n    uri = \"ws://localhost:8000/ws/sensores/\"\n    async with websockets.connect(uri) as websocket:\n        while True:",
+        "detail": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "description": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "peekOfCode": "def run():\n    print(\"Ejecutando script de actualización de sensores...\")\n    loop = asyncio.get_event_loop()\n    loop.run_until_complete(send_random_data())",
+        "detail": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "description": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(\"APIRest\")))\nsys.path.append(BASE_DIR)\n# Configurar Django\nos.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"APIRest.settings\")\ndjango.setup()\nfrom apps.IoT.models import Sensor\nfrom apps.IoT.models import Configuracion\n@sync_to_async\ndef obtener_sensores():\n    print(\"Obteniendo sensores...\")",
+        "detail": "AgroSisAPIDjangopast.apps.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.migrations.0001_initial",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Actividad',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('descripcion', models.CharField(max_length=200)),",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.migrations.0002_initial",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.migrations.0002_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Inventario', '0001_initial'),\n        ('Trazabilidad', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='actividad',",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.migrations.0002_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Actividad",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Actividad",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Actividad",
+        "peekOfCode": "class Actividad(models.Model):\n    fk_usuario = models.ForeignKey(Usuario,on_delete=models.SET_NULL,null=True)\n    fk_bancal = models.ForeignKey(Bancal,on_delete=models.SET_NULL,null=True)\n    descripcion = models.CharField(max_length=200)\n    fecha_inicio = models.DateField()\n    fecha_fin = models.DateField()\n    estado = models.BooleanField(default=False)\n    def __str__(self):\n        return self.descripcion",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Actividad",
+        "documentation": {}
+    },
+    {
+        "label": "Afeccion",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Afeccion",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Afeccion",
+        "peekOfCode": "class Afeccion(models.Model):\n    fk_bancal = models.ForeignKey(Bancal,on_delete=models.SET_NULL,null=True)\n    fk_plaga = models.ForeignKey(Plaga,on_delete=models.SET_NULL,null=True)\n    fecha = models.DateField()\n    descripcion = models.TextField(max_length=500)\n    def __str__(self):\n        return self.descripcion",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Afeccion",
+        "documentation": {}
+    },
+    {
+        "label": "Asignacion_Actividad",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Asignacion_Actividad",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Asignacion_Actividad",
+        "peekOfCode": "class Asignacion_Actividad(models.Model):\n    fk_actividad = models.ForeignKey(Actividad,on_delete=models.SET_NULL,null=True)\n    fk_inventario = models.ForeignKey(Inventario,on_delete=models.SET_NULL,null=True)\n    fk_usuario = models.ForeignKey(Usuario,on_delete=models.SET_NULL,null=True)\n    def __str__(self):\n        return str(self.fk_usuario) + str(self.fk_actividad) + str(self.fk_inventario)",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Asignacion_Actividad",
+        "documentation": {}
+    },
+    {
+        "label": "Bancal",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Bancal",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Bancal",
+        "peekOfCode": "class Bancal(models.Model):\n    nombre = models.CharField(max_length=100)\n    descripcion = models.TextField(max_length=500)\n    fk_lote = models.ForeignKey(Lote,on_delete=models.SET_NULL,null=True)\n    fk_cultivo = models.ForeignKey(Cultivo,on_delete=models.SET_NULL,null=True)\n    ubicacion = models.CharField(max_length=50)\n    def __str__(self):\n        return self.ubicacion",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Bancal",
+        "documentation": {}
+    },
+    {
+        "label": "Control",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Control",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Control",
+        "peekOfCode": "class Control(models.Model):\n    fk_cultivo = models.ForeignKey(Cultivo,on_delete=models.SET_NULL,null=True)\n    fk_afeccion = models.ForeignKey(Afeccion,on_delete=models.SET_NULL,null=True)\n    fecha_hora = models.DateTimeField()\n    descripcion = models.TextField(max_length=500)\n    def __str__(self):\n        return self.descripcion",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Control",
+        "documentation": {}
+    },
+    {
+        "label": "Cultivo",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Cultivo",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Cultivo",
+        "peekOfCode": "class Cultivo(models.Model):\n    fk_semillero = models.ForeignKey(Semillero,on_delete=models.SET_NULL,null=True)\n    fk_especie = models.ForeignKey(Especie,on_delete=models.SET_NULL,null=True)\n    nombre = models.CharField(max_length=20)\n    descripcion = models.TextField(max_length=300)\n    cantidad = models.IntegerField()\n    fecha_siembra = models.DateField()\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Cultivo",
+        "documentation": {}
+    },
+    {
+        "label": "Especie",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Especie",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Especie",
+        "peekOfCode": "class Especie(models.Model):\n    fk_tipo_especie = models.ForeignKey(Tipo_Especie,on_delete=models.SET_NULL,null=True)\n    nombre = models.CharField(max_length=100)\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Especie",
+        "documentation": {}
+    },
+    {
+        "label": "Lote",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Lote",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Lote",
+        "peekOfCode": "class Lote(models.Model):\n    nombre = models.CharField(max_length=20)\n    descripcion = models.CharField(max_length=200)\n    ubicacion = models.FloatField()\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Lote",
+        "documentation": {}
+    },
+    {
+        "label": "Notificacion",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Notificacion",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Notificacion",
+        "peekOfCode": "class Notificacion(models.Model):\n    fk_actividad = models.ForeignKey(Actividad,on_delete=models.SET_NULL,null=True)\n    fk_usuario = models.ForeignKey(Usuario,on_delete=models.SET_NULL,null=True)\n    nombre = models.CharField(max_length=20)\n    descripcion = models.TextField(max_length=300)\n    fecha_hora = models.DateTimeField()\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Notificacion",
+        "documentation": {}
+    },
+    {
+        "label": "Plaga",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Plaga",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Plaga",
+        "peekOfCode": "class Plaga(models.Model):\n    fk_tipo_plaga = models.ForeignKey(Tipo_Plaga,on_delete=models.SET_NULL,null=True)\n    nombre = models.CharField(max_length=100)\n    def __str__(self):\n        return self.nombre",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Plaga",
+        "documentation": {}
+    },
+    {
+        "label": "Semillero",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Semillero",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Semillero",
+        "peekOfCode": "class Semillero(models.Model):\n    fk_especie = models.ForeignKey(Especie,on_delete=models.SET_NULL,null=True)\n    fk_lote = models.ForeignKey(Lote,on_delete=models.SET_NULL,null=True)\n    nombre_semilla = models.CharField(max_length=50)\n    fecha_siembra = models.DateField()\n    fecha_estimada = models.DateField()\n    unidades = models.IntegerField()\n    def __str__(self):\n        return self.nombre_semilla",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Semillero",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_Especie",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Tipo_Especie",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Tipo_Especie",
+        "peekOfCode": "class Tipo_Especie(models.Model):\n    tipo = models.CharField(max_length=100)\n    descripcion = models.TextField(max_length=300)\n    tiempo_crecimiento = models.IntegerField()\n    def __str__(self):\n        return self.tipo",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Tipo_Especie",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_Plaga",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Tipo_Plaga",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Tipo_Plaga",
+        "peekOfCode": "class Tipo_Plaga(models.Model):\n    tipo = models.CharField(max_length=100)\n    descripcion = models.TextField(max_length=300)\n    def __str__(self):\n        return self.tipo",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.models.Tipo_Plaga",
+        "documentation": {}
+    },
+    {
+        "label": "ActividadRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.ActividadRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.ActividadRouter",
+        "peekOfCode": "ActividadRouter = DefaultRouter()\nActividadRouter.register(prefix='actividad',viewset=ActividadViews,basename='actividad')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.ActividadRouter",
+        "documentation": {}
+    },
+    {
+        "label": "AfeccionRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.AfeccionRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.AfeccionRouter",
+        "peekOfCode": "AfeccionRouter = DefaultRouter()\nAfeccionRouter.register(prefix='afeccion', viewset=AfeccionViews, basename='afeccion')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.AfeccionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Asignacion_ActividadRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Asignacion_ActividadRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Asignacion_ActividadRouter",
+        "peekOfCode": "Asignacion_ActividadRouter = DefaultRouter()\nAsignacion_ActividadRouter.register(prefix='asignacion_actividad', viewset=Asignacion_ActividadViews, basename='asignacion_actividad')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Asignacion_ActividadRouter",
+        "documentation": {}
+    },
+    {
+        "label": "BancalRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.BancalRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.BancalRouter",
+        "peekOfCode": "BancalRouter = DefaultRouter()\nBancalRouter.register(prefix='bancal', viewset=BancalViews, basename='bancal')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.BancalRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ControlRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.ControlRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.ControlRouter",
+        "peekOfCode": "ControlRouter = DefaultRouter()\nControlRouter.register(prefix='control', viewset=ControlViews, basename='control')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.ControlRouter",
+        "documentation": {}
+    },
+    {
+        "label": "CultivoRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.CultivoRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.CultivoRouter",
+        "peekOfCode": "CultivoRouter = DefaultRouter()\nCultivoRouter.register(prefix='cultivo', viewset=CultivoViews, basename='cultivo')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.CultivoRouter",
+        "documentation": {}
+    },
+    {
+        "label": "EspecieRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.EspecieRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.EspecieRouter",
+        "peekOfCode": "EspecieRouter = DefaultRouter()\nEspecieRouter.register(prefix='especie', viewset=EspecieViews, basename='especie')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.EspecieRouter",
+        "documentation": {}
+    },
+    {
+        "label": "LoteRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.LoteRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.LoteRouter",
+        "peekOfCode": "LoteRouter = DefaultRouter()\nLoteRouter.register(prefix='lote', viewset=LoteViews, basename='lote')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.LoteRouter",
+        "documentation": {}
+    },
+    {
+        "label": "NotificacionRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.NotificacionRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.NotificacionRouter",
+        "peekOfCode": "NotificacionRouter = DefaultRouter()\nNotificacionRouter.register(prefix='notificacion', viewset=NotificacionViews, basename='notificacion')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.NotificacionRouter",
+        "documentation": {}
+    },
+    {
+        "label": "PlagaRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.PlagaRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.PlagaRouter",
+        "peekOfCode": "PlagaRouter = DefaultRouter()\nPlagaRouter.register(prefix='plaga', viewset=PlagaViews, basename='plaga')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.PlagaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "SemilleroRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.SemilleroRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.SemilleroRouter",
+        "peekOfCode": "SemilleroRouter = DefaultRouter()\nSemilleroRouter.register(prefix='semillero', viewset=SemilleroViews, basename='semillero')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.SemilleroRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_EspecieRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Tipo_EspecieRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Tipo_EspecieRouter",
+        "peekOfCode": "Tipo_EspecieRouter = DefaultRouter()\nTipo_EspecieRouter.register(prefix='tipo_especie', viewset=Tipo_EspecieViews, basename='tipo_especie')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Tipo_EspecieRouter",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_PlagaRouter",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Tipo_PlagaRouter",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Tipo_PlagaRouter",
+        "peekOfCode": "Tipo_PlagaRouter = DefaultRouter()\nTipo_PlagaRouter.register(prefix='tipo_plaga', viewset=Tipo_PlagaViews, basename='tipo_plaga')",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.routers.Tipo_PlagaRouter",
+        "documentation": {}
+    },
+    {
+        "label": "ActividadSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.ActividadSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.ActividadSerializer",
+        "peekOfCode": "class ActividadSerializer(ModelSerializer):\n    class Meta:\n        model = Actividad\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.ActividadSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "AfeccionSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.AfeccionSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.AfeccionSerializer",
+        "peekOfCode": "class AfeccionSerializer(ModelSerializer):\n    class Meta:\n        model = Afeccion\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.AfeccionSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "Asignacion_ActividadSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Asignacion_ActividadSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Asignacion_ActividadSerializer",
+        "peekOfCode": "class Asignacion_ActividadSerializer(ModelSerializer):\n    class Meta:\n        model = Asignacion_Actividad\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Asignacion_ActividadSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "BancalSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.BancalSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.BancalSerializer",
+        "peekOfCode": "class BancalSerializer(ModelSerializer):\n    class Meta:\n        model = Bancal\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.BancalSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "ControlSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.ControlSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.ControlSerializer",
+        "peekOfCode": "class ControlSerializer(ModelSerializer):\n    class Meta:\n        model = Control\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.ControlSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "CultivoSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.CultivoSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.CultivoSerializer",
+        "peekOfCode": "class CultivoSerializer(ModelSerializer):\n    class Meta:\n        model = Cultivo\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.CultivoSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "EspecieSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.EspecieSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.EspecieSerializer",
+        "peekOfCode": "class EspecieSerializer(ModelSerializer):\n    class Meta:\n        model = Especie\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.EspecieSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "LoteSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.LoteSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.LoteSerializer",
+        "peekOfCode": "class LoteSerializer(ModelSerializer):\n    class Meta:\n        model = Lote\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.LoteSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "NotificacionSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.NotificacionSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.NotificacionSerializer",
+        "peekOfCode": "class NotificacionSerializer(ModelSerializer):\n    class Meta:\n        model = Notificacion\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.NotificacionSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "PlagaSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.PlagaSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.PlagaSerializer",
+        "peekOfCode": "class PlagaSerializer(ModelSerializer):\n    class Meta:\n        model = Plaga\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.PlagaSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "SemilleroSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.SemilleroSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.SemilleroSerializer",
+        "peekOfCode": "class SemilleroSerializer(ModelSerializer):\n    class Meta:\n        model = Semillero\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.SemilleroSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_EspecieSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Tipo_EspecieSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Tipo_EspecieSerializer",
+        "peekOfCode": "class Tipo_EspecieSerializer(ModelSerializer):\n    class Meta:\n        model = Tipo_Especie\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Tipo_EspecieSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_PlagaSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Tipo_PlagaSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Tipo_PlagaSerializer",
+        "peekOfCode": "class Tipo_PlagaSerializer(ModelSerializer):\n    class Meta:\n        model = Tipo_Plaga\n        fields = '__all__'",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.serializers.Tipo_PlagaSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "ActividadViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.ActividadViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.ActividadViews",
+        "peekOfCode": "class ActividadViews(ModelViewSet):\n    queryset = Actividad.objects.all()\n    serializer_class = ActividadSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.ActividadViews",
+        "documentation": {}
+    },
+    {
+        "label": "AfeccionViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.AfeccionViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.AfeccionViews",
+        "peekOfCode": "class AfeccionViews(ModelViewSet):\n    queryset = Afeccion.objects.all()\n    serializer_class = AfeccionSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.AfeccionViews",
+        "documentation": {}
+    },
+    {
+        "label": "Asignacion_ActividadViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Asignacion_ActividadViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Asignacion_ActividadViews",
+        "peekOfCode": "class Asignacion_ActividadViews(ModelViewSet):\n    queryset = Asignacion_Actividad.objects.all()\n    serializer_class = Asignacion_ActividadSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Asignacion_ActividadViews",
+        "documentation": {}
+    },
+    {
+        "label": "BancalViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.BancalViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.BancalViews",
+        "peekOfCode": "class BancalViews(ModelViewSet):\n    queryset = Bancal.objects.all()\n    serializer_class = BancalSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.BancalViews",
+        "documentation": {}
+    },
+    {
+        "label": "ControlViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.ControlViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.ControlViews",
+        "peekOfCode": "class ControlViews(ModelViewSet):\n    queryset = Control.objects.all()\n    serializer_class = ControlSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.ControlViews",
+        "documentation": {}
+    },
+    {
+        "label": "CultivoViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.CultivoViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.CultivoViews",
+        "peekOfCode": "class CultivoViews(ModelViewSet):\n    queryset = Cultivo.objects.all()\n    serializer_class = CultivoSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.CultivoViews",
+        "documentation": {}
+    },
+    {
+        "label": "EspecieViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.EspecieViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.EspecieViews",
+        "peekOfCode": "class EspecieViews(ModelViewSet):\n    queryset = Especie.objects.all()\n    serializer_class = EspecieSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.EspecieViews",
+        "documentation": {}
+    },
+    {
+        "label": "LoteViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.LoteViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.LoteViews",
+        "peekOfCode": "class LoteViews(ModelViewSet):\n    queryset = Lote.objects.all()\n    serializer_class = LoteSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.LoteViews",
+        "documentation": {}
+    },
+    {
+        "label": "NotificacionViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.NotificacionViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.NotificacionViews",
+        "peekOfCode": "class NotificacionViews(ModelViewSet):\n    queryset = Notificacion.objects.all()\n    serializer_class = NotificacionSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.NotificacionViews",
+        "documentation": {}
+    },
+    {
+        "label": "PlagaViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.PlagaViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.PlagaViews",
+        "peekOfCode": "class PlagaViews(ModelViewSet):\n    queryset = Plaga.objects.all()\n    serializer_class = PlagaSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.PlagaViews",
+        "documentation": {}
+    },
+    {
+        "label": "SemilleroViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.SemilleroViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.SemilleroViews",
+        "peekOfCode": "class SemilleroViews(ModelViewSet):\n    queryset = Semillero.objects.all()\n    serializer_class = SemilleroSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.SemilleroViews",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_EspecieViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Tipo_EspecieViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Tipo_EspecieViews",
+        "peekOfCode": "class Tipo_EspecieViews(ModelViewSet):\n    queryset = Tipo_Especie.objects.all()\n    serializer_class = Tipo_EspecieSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Tipo_EspecieViews",
+        "documentation": {}
+    },
+    {
+        "label": "Tipo_PlagaViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Tipo_PlagaViews",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Tipo_PlagaViews",
+        "peekOfCode": "class Tipo_PlagaViews(ModelViewSet):\n    queryset = Tipo_Plaga.objects.all()\n    serializer_class = Tipo_PlagaSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.views.Tipo_PlagaViews",
+        "documentation": {}
+    },
+    {
+        "label": "TrazabilidadConfig",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Trazabilidad.apps",
+        "description": "AgroSisAPIDjangopast.apps.Trazabilidad.apps",
+        "peekOfCode": "class TrazabilidadConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"apps.Trazabilidad\"\n    # def ready(self):\n    #     import apps.Trazabilidad.socket.signals",
+        "detail": "AgroSisAPIDjangopast.apps.Trazabilidad.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.migrations.0001_initial",
+        "description": "AgroSisAPIDjangopast.apps.Users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Rol',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "AgroSisAPIDjangopast.apps.Users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.migrations.0002_alter_rol_tipo_alter_usuario_fecha_nac_and_more",
+        "description": "AgroSisAPIDjangopast.apps.Users.migrations.0002_alter_rol_tipo_alter_usuario_fecha_nac_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Users', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='rol',\n            name='tipo',\n            field=models.CharField(max_length=40, unique=True),\n        ),",
+        "detail": "AgroSisAPIDjangopast.apps.Users.migrations.0002_alter_rol_tipo_alter_usuario_fecha_nac_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioSerializer",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.serializers.userSerializer",
+        "description": "AgroSisAPIDjangopast.apps.Users.serializers.userSerializer",
+        "peekOfCode": "class UsuarioSerializer(ModelSerializer):\n    class Meta:\n        model = Usuario\n        fields = '__all__'\n        extra_kwargs = {'password': {'write_only': True}}  # Evita que la contraseña se muestre en respuestas\n    def create(self, validated_data):\n        user = Usuario(**validated_data)\n        user.set_password(validated_data['password'])  # Encripta la contraseña\n        user.save()\n        return user",
+        "detail": "AgroSisAPIDjangopast.apps.Users.serializers.userSerializer",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioViews",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.views.UsuarioViews",
+        "description": "AgroSisAPIDjangopast.apps.Users.views.UsuarioViews",
+        "peekOfCode": "class UsuarioViews(ModelViewSet):\n    queryset = Usuario.objects.all()\n    serializer_class = UsuarioSerializer\n    permission_classes = [IsAuthenticatedOrReadOnly]\n    def create(self, request, *args, **kwargs):\n        \"\"\"Sobreescribe la creación de usuario para manejar la encriptación y el token correctamente.\"\"\"\n        serializer = self.get_serializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.save()\n            return Response(",
+        "detail": "AgroSisAPIDjangopast.apps.Users.views.UsuarioViews",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.apps",
+        "description": "AgroSisAPIDjangopast.apps.Users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'apps.Users'",
+        "detail": "AgroSisAPIDjangopast.apps.Users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioFormulario",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.models",
+        "description": "AgroSisAPIDjangopast.apps.Users.models",
+        "peekOfCode": "class UsuarioFormulario(BaseUserManager):\n    def create_user(self, identificacion, email, username, password=None, **extra_fields):\n        if not identificacion:\n            raise ValueError(\"Identificación no ingresada\")\n        if not email:\n            raise ValueError(\"Correo no ingresado\")\n        if not username:\n            raise ValueError(\"Usuario no ingresado\")\n        if not password:\n            raise ValueError(\"Contraseña no ingresada\")",
+        "detail": "AgroSisAPIDjangopast.apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rol",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.models",
+        "description": "AgroSisAPIDjangopast.apps.Users.models",
+        "peekOfCode": "class Rol(models.Model):\n    tipo = models.CharField(max_length=40, unique=True)\n    def __str__(self):\n        return self.tipo\n# Modelo de Usuario personalizado\nclass Usuario(AbstractUser):\n    identificacion = models.BigIntegerField(unique=True, null=False)\n    fk_rol = models.ForeignKey(Rol, on_delete=models.SET_NULL, null=True, blank=True)\n    fecha_nac = models.DateField(null=True, blank=True)\n    telefono = models.CharField(max_length=20, null=True, blank=True)",
+        "detail": "AgroSisAPIDjangopast.apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "AgroSisAPIDjangopast.apps.Users.models",
+        "description": "AgroSisAPIDjangopast.apps.Users.models",
+        "peekOfCode": "class Usuario(AbstractUser):\n    identificacion = models.BigIntegerField(unique=True, null=False)\n    fk_rol = models.ForeignKey(Rol, on_delete=models.SET_NULL, null=True, blank=True)\n    fecha_nac = models.DateField(null=True, blank=True)\n    telefono = models.CharField(max_length=20, null=True, blank=True)\n    email = models.EmailField(max_length=40, unique=True)\n    REQUIRED_FIELDS = [\"identificacion\", \"email\"]\n    objects = UsuarioFormulario()  # Usa el manager personalizado\n    def __str__(self):\n        return self.username",
+        "detail": "AgroSisAPIDjangopast.apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_sensores",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.script.actualizador",
+        "description": "AgroSisAPIDjangopast.script.actualizador",
+        "peekOfCode": "def obtener_sensores():\n    print(\"Obteniendo sensores...\")\n    return list(Sensor.objects.select_related(\"fk_configuracion\").all())\n@sync_to_async\ndef guardar_medicion(sensor, valor):\n    print(f\"Guardando medición para el sensor {sensor.id}: {valor}\")\n    sensor.medicion = valor\n    sensor.save()\n    return sensor\nasync def send_random_data():",
+        "detail": "AgroSisAPIDjangopast.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "guardar_medicion",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.script.actualizador",
+        "description": "AgroSisAPIDjangopast.script.actualizador",
+        "peekOfCode": "def guardar_medicion(sensor, valor):\n    print(f\"Guardando medición para el sensor {sensor.id}: {valor}\")\n    sensor.medicion = valor\n    sensor.save()\n    return sensor\nasync def send_random_data():\n    print(\"Enviando datos a WebSocket...\")\n    uri = \"ws://localhost:8000/ws/sensores/\"\n    async with websockets.connect(uri) as websocket:\n        while True:",
+        "detail": "AgroSisAPIDjangopast.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.script.actualizador",
+        "description": "AgroSisAPIDjangopast.script.actualizador",
+        "peekOfCode": "def run():\n    print(\"Ejecutando script de actualización de sensores...\")\n    loop = asyncio.get_event_loop()\n    loop.run_until_complete(send_random_data())",
+        "detail": "AgroSisAPIDjangopast.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "AgroSisAPIDjangopast.script.actualizador",
+        "description": "AgroSisAPIDjangopast.script.actualizador",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(\"APIRest\")))\nsys.path.append(BASE_DIR)\n# Configurar Django\nos.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"APIRest.settings\")\ndjango.setup()\nfrom apps.IoT.models import Sensor\nfrom apps.IoT.models import Configuracion\n@sync_to_async\ndef obtener_sensores():\n    print(\"Obteniendo sensores...\")",
+        "detail": "AgroSisAPIDjangopast.script.actualizador",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "AgroSisAPIDjangopast.manage",
+        "description": "AgroSisAPIDjangopast.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'APIRest.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "AgroSisAPIDjangopast.manage",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]
