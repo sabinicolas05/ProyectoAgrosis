@@ -16,8 +16,9 @@ import InventarioList from "./pages/inventario/inventarios/InventarioGet";
 
  {/* 🔹 FINANZAS */}
  import PagoList from "./pages/finanzas/pago/PagoGet";
+ import ProduccionList from "./pages/finanzas/produccion/ProduccionGet";
 
- 
+
 import LoginForm from "@/pages/login";
 import RegisterForm from "./pages/register";
 
@@ -60,6 +61,7 @@ function App() {
 
          {/* 🔹 FINANZAS */}
          <Route element={<PagoList/>} path="/finanzas/pagos" />
+         <Route element={<ProduccionList/>} path="/finanzas/produccion" />
 
 
           <Route element={<PricingPage />} path="/pricing" />
