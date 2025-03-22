@@ -61,6 +61,7 @@ from apps.Inventario.routers.Tipo_InsumoRouter import Tipo_InsumoRouter
 from apps.IoT.routers.ConfiguracionRouter import ConfiguracionRouter
 from apps.IoT.routers.SensorRouter import SensorRouter
 from apps.IoT.routers.Tipo_SensorRouter import Tipo_SensorRouter
+from apps.IoT.routers.DatosMeteRouter import RouterDatos
 #TRAZABILIDAD
 from apps.Trazabilidad.routers.ActividadRouter import ActividadRouter
 from apps.Trazabilidad.routers.AfeccionRouter import AfeccionRouter
@@ -113,6 +114,8 @@ urlpatterns = [
     path('api/', include(ConfiguracionRouter.urls)),
     path('api/', include(SensorRouter.urls)),
     path('api/', include(Tipo_SensorRouter.urls)),
+    path('api/', include(RouterDatos.urls)),
+
 
     # Trazabilidad
     path('api/', include(ActividadRouter.urls)),
