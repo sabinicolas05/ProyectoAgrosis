@@ -11,6 +11,7 @@ import AboutPage from "@/pages/about";
 import TipoHerramientasList from "./pages/inventario/tipo_herramientas/TipoHerramientaGet";
 import HerramientasList from "./pages/inventario/herramientas/HerramientaGet";
 import TipoInsumosList from "./pages/inventario/tipo_insumo/TipoInsumoGet";
+import InsumosList from "./pages/inventario/insumo/InsumoGet";
 
 import LoginForm from "@/pages/login";
 import RegisterForm from "./pages/register";
@@ -49,6 +50,7 @@ function App() {
          <Route element={<TipoHerramientasList/>} path="/inventario/tipo_herramienta" />
          <Route element={<HerramientasList/>} path="/inventario/herramientas" />
          <Route element={<TipoInsumosList/>} path="/inventario/tipo_insumo" />
+         <Route element={<InsumosList/>} path="/inventario/insumo" />
 
 
           <Route element={<PricingPage />} path="/pricing" />
