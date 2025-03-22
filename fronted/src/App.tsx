@@ -14,6 +14,10 @@ import TipoInsumosList from "./pages/inventario/tipo_insumo/TipoInsumoGet";
 import InsumosList from "./pages/inventario/insumo/InsumoGet";
 import InventarioList from "./pages/inventario/inventarios/InventarioGet";
 
+ {/* 🔹 FINANZAS */}
+ import PagoList from "./pages/finanzas/pago/PagoGet";
+
+ 
 import LoginForm from "@/pages/login";
 import RegisterForm from "./pages/register";
 
@@ -53,6 +57,9 @@ function App() {
          <Route element={<TipoInsumosList/>} path="/inventario/tipo_insumo" />
          <Route element={<InsumosList/>} path="/inventario/insumo" />
          <Route element={<InventarioList/>} path="/inventario/inventario" />
+
+         {/* 🔹 FINANZAS */}
+         <Route element={<PagoList/>} path="/finanzas/pagos" />
 
 
           <Route element={<PricingPage />} path="/pricing" />
