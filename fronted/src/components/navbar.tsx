@@ -1,144 +1,154 @@
+"use client";
+
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@heroui/button";
-import { Kbd } from "@heroui/kbd";
-import { Link } from "@heroui/link";
-import { Input } from "@heroui/input";
+import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 import {
-  Navbar as HeroUINavbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
-} from "@heroui/navbar";
-import { link as linkStyles } from "@heroui/theme";
-import clsx from "clsx";
+  FaHome,
+  FaUser,
+  FaCalendarAlt,
+  // FaMapMarkerAlt,
+  FaLeaf,
+  FaSeedling,
+  FaTachometerAlt,
+  FaTree,
+  FaDollarSign,
+  // FaBug,
+  FaBox,
+  FaCloudRain,
+  FaTemperatureHigh,
+} from "react-icons/fa";
+import { GiProcessor } from "react-icons/gi";
 
-import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
-} from "@/components/icons";
-import { Logo } from "@/components/icons";
+const menuItems = [
+  { id: 1, label: "Inicio", path: "/inicio", icon: <FaHome /> },
+  {
+    id: 3,
+    label: "IoT",
+    icon: <GiProcessor />,
+    subItems: [
+      { id: 4, label: "Tipos de sensor", path: "/iot/tipo-sensor", icon: <FaCloudRain /> },
+      { id: 5, label: "Sensores", path: "/iot/sensores", icon: <FaTachometerAlt /> },
+      { id: 6, label: "Configuración", path: "/iot/configuracion", icon: <FaTemperatureHigh /> },
+    ],
+  },
+  {
+    id: 7,
+    label: "Cultivos",
+    icon: <FaLeaf />,
+    subItems: [
+      { id: 8, label: "Cultivo", path: "/cultivo/cultivo", icon: <FaSeedling /> },
+      { id: 9, label: "Especies", path: "/cultivo/especies", icon: <FaTachometerAlt /> },
+      { id: 10, label: "Tipo Especie", path: "/cultivo/tipoespecie/", icon: <FaTree /> },
+      { id: 11, label: "Bancal", path: "/cultivo/bancal", icon: <FaTree /> },
+      { id: 12, label: "Lotes", path: "/cultivo/lotes", icon: <FaTree /> },
+      { id: 13, label: "Actividades", path: "/cultivo/actividades", icon: <FaTree /> },
+      { id: 14, label: "Semillero", path: "/semilleros", icon: <FaCalendarAlt /> },
+      
 
-export const Navbar = () => {
-  const searchInput = (
-    <Input
-      aria-label="Search"
-      classNames={{
-        inputWrapper: "bg-default-100",
-        input: "text-sm",
-      }}
-      endContent={
-        <Kbd className="hidden lg:inline-block" keys={["command"]}>
-          K
-        </Kbd>
-      }
-      labelPlacement="outside"
-      placeholder="Search..."
-      startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
-      }
-      type="search"
-    />
+    ],
+  },
+  { id: 15, label: "Usuarios", path: "/usuarios", icon: <FaUser /> },
+  // { id: 16, label: "Mapa", path: "/mapa", icon: <FaMapMarkerAlt /> },
+  { 
+    id: 16,
+    label: "Finanzas",
+    icon: <FaDollarSign />,
+    subItems: [
+      { id: 17, label: "Pagos", path: "/finanzas/pagos", icon: <FaSeedling /> },
+      { id: 18, label: "Produccion", path: "/finanzas/produccion", icon: <FaTachometerAlt /> },
+      { id: 19, label: "Residuos", path: "/finanzas/residuos", icon: <FaTree /> },
+      { id: 20, label: "Venta", path: "/finanzas/venta", icon: <FaTree /> },
+      
+    ],
+  },
+  // { id: 21, label: "Plagas", path: "/plagas", icon: <FaBug /> },
+  { 
+    id: 21,
+    label: "Inventario",
+    icon: <FaBox />,
+    subItems: [
+      { id: 22, label: "Tipo Herramienta", path: "/inventario/tipo_herramienta", icon: <FaSeedling /> },
+      { id: 23, label: "Herramienta", path: "/inventario/herramientas", icon: <FaTachometerAlt /> },
+      { id: 24, label: "Tipo Insumo", path: "/inventario/tipo_insumo", icon: <FaTree /> },
+      { id: 25, label: "Insumo", path: "/inventario/insumo", icon: <FaTree /> },
+      { id: 26, label: "Inventario", path: "/inventario/inventario", icon: <FaTree /> },
+      
+    ],
+   },
+];
+
+import LogoSena from "../assets/def_AGROSIS_LOGOTIC.png";
+import Sena from "../assets/logo sena.png";
+
+export default function Navbar({ isOpen, toggleSidebar }: { isOpen: boolean; toggleSidebar: () => void }) {
+  return (
+    <aside
+      className={`bg-white shadow-lg transition-all duration-300 flex flex-col fixed top-0 bottom-0 z-50
+      ${isOpen ? "w-64 p-4" : "w-20 p-2"} rounded-r-2xl overflow-y-auto max-h-screen`}
+    >
+      <div className="flex justify-between items-center">
+        <Button isIconOnly variant="light" className="mb-4" onClick={toggleSidebar}>
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </Button>
+      </div>
+
+      <div className={`flex items-center justify-center transition-all ${!isOpen ? "hidden" : ""}`}>
+        <img src={LogoSena} alt="Logo Sena" className="w-40 transition-all" />
+      </div>
+
+      <nav className="flex flex-col mt-6 gap-4">
+        {menuItems.map((item) => (
+          <SidebarItem key={item.id} item={item} isOpen={isOpen} />
+        ))}
+      </nav>
+
+      <div className={`mt-auto flex items-center justify-center transition-all ${!isOpen ? "hidden" : ""}`}>
+        <img src={Sena} alt="Logo Sena" className="w-20 transition-all" />
+      </div>
+    </aside>
   );
+}
+
+/* Componente de Item del Menú */
+function SidebarItem({ item, isOpen }: { item: any; isOpen: boolean }) {
+  const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <HeroUINavbar maxWidth="xl" position="sticky">
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-        <NavbarBrand className="gap-3 max-w-fit">
-          <Link
-            className="flex justify-start items-center gap-1"
-            color="foreground"
-            href="/"
-          >
-            <Logo />
-            <p className="font-bold text-inherit">ACME</p>
-          </Link>
-        </NavbarBrand>
-        <div className="hidden lg:flex gap-4 justify-start ml-2">
-          {siteConfig.navItems.map((item) => (
-            <NavbarItem key={item.href}>
-              <Link
-                className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium"
-                )}
-                color="foreground"
-                href={item.href}
-              >
-                {item.label}
-              </Link>
-            </NavbarItem>
-          ))}
-        </div>
-      </NavbarContent>
-
-      <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
-        justify="end"
+    <div>
+      <Link
+        to={item.path || "#"}
+        className={`flex items-center gap-2 p-3 rounded-full transition-all font-medium cursor-pointer
+        bg-white shadow-md hover:bg-gray-400 hover:text-white
+        ${isOpen ? "w-5/6 mx-auto" : "justify-center w-12 mx-auto"}`}
+        onClick={(e) => {
+          if (item.subItems) {
+            e.preventDefault();
+            setIsExpanded(!isExpanded);
+          }
+        }}
       >
-        <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal href={siteConfig.links.twitter} title="Twitter">
-            <TwitterIcon className="text-default-500" />
-          </Link>
-          <Link isExternal href={siteConfig.links.discord} title="Discord">
-            <DiscordIcon className="text-default-500" />
-          </Link>
-          <Link isExternal href={siteConfig.links.github} title="GitHub">
-            <GithubIcon className="text-default-500" />
-          </Link>
-          <ThemeSwitch />
-        </NavbarItem>
-        <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-        <NavbarItem className="hidden md:flex">
-          <Button
-            isExternal
-            as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
-            href={siteConfig.links.sponsor}
-            startContent={<HeartFilledIcon className="text-danger" />}
-            variant="flat"
-          >
-            Sponsor
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
+        {item.icon}
+        {isOpen && <span>{item.label}</span>}
+        {item.subItems && isOpen && (isExpanded ? <ChevronDown size={16} /> : <ChevronRight size={16} />)}
+      </Link>
 
-      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal href={siteConfig.links.github}>
-          <GithubIcon className="text-default-500" />
-        </Link>
-        <ThemeSwitch />
-        <NavbarMenuToggle />
-      </NavbarContent>
-
-      <NavbarMenu>
-        {searchInput}
-        <div className="mx-4 mt-2 flex flex-col gap-2">
-          {siteConfig.navMenuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
-                size="lg"
-              >
-                {item.label}
-              </Link>
-            </NavbarMenuItem>
+      {isOpen && isExpanded && item.subItems && (
+        <div className="flex flex-col gap-2 mt-2">
+          {item.subItems.map((subItem: any) => (
+            <Link
+              key={subItem.id}
+              to={subItem.path}
+              className="flex items-center gap-2 p-3 rounded-full transition-all font-medium cursor-pointer
+              bg-white shadow-md hover:bg-gray-400 hover:text-white text-black w-5/6 mx-auto"
+            >
+              {subItem.icon}
+              <span>{subItem.label}</span>
+            </Link>
           ))}
         </div>
-      </NavbarMenu>
-    </HeroUINavbar>
+      )}
+    </div>
   );
-};
+}
