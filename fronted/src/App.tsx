@@ -7,9 +7,14 @@ import PricingPage from "@/pages/pricing";
 import BlogPage from "@/pages/blog";
 import AboutPage from "@/pages/about";
 
-{/*  TRAZABILIDAD */}
+{/* 🔹 Inventario */}
+import TipoHerramientasList from "./pages/inventario/tipo_herramientas/TipoHerramientaGet";
 
+
+
+import LoginForm from "@/pages/login";
 import RegisterForm from "./pages/register";
+
 
 
 function App() {
@@ -28,20 +33,22 @@ function App() {
       />
 
       <Routes>
-        {/* 🔹 Login sin Navbar */}
-        
+      
+        <Route element={<LoginForm />} path="/" />
 
-        {/* 🔹 Rutas protegidas con Navbar */}
+        
         <Route
           element={
               <Outlet />
           }
         >
           <Route element={<RegisterForm />} path="/register" />
+          <Route element={<IndexPage />} path="/inicio" />
+         
+         {/* 🔹 Inventario */}
+         <Route element={<TipoHerramientasList/>} path="/inventario/tipo_herramienta" />
 
-          <Route element={<UsuariosList />} path="/usuarios" />
-          <Route element={<EditarUsuarioModal />} path="/usuarios/editar/:id" />
-          <Route element={<RegisterUserModal/>} path="/usuarios/editar/:id" />
+
           <Route element={<PricingPage />} path="/pricing" />
           <Route element={<BlogPage />} path="/blog" />
           <Route element={<AboutPage />} path="/about" />
