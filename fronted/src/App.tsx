@@ -23,6 +23,9 @@ import InventarioList from "./pages/inventario/inventarios/InventarioGet";
  {/* 🔹 IOT */}
  import SensorConfigForm from "@/pages/sensor/configuracion/ConfigsensorGet";
  import TipoSensoresList from "./pages/sensor/tipo_sensor/TipoSensorGet";
+ import SensorForm from "./pages/sensor/SensorGet";
+
+
 
 import LoginForm from "@/pages/login";
 import RegisterForm from "./pages/register";
@@ -73,7 +76,7 @@ function App() {
          {/* 🔹 IOT */}
          <Route element={<SensorConfigForm />} path="/iot/configuracion" />
          <Route element={<TipoSensoresList />} path="/iot/tipo-sensor" />
-         <Route element={<TipoSensoresList />} path="/iot/tipo-sensor" />
+         <Route element={<SensorForm />} path="/iot/sensores" />
 
 
 
