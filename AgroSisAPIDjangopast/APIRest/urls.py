@@ -127,7 +127,7 @@ urlpatterns = [
     path('api/', include(EspecieRouter.urls)),
     path('api/', include(LoteRouter.urls)),
     path('api/', include(NotificacionRouter.urls)),
-    path('api', include(PlagaRouter.urls)),
+    path('api/', include(PlagaRouter.urls)),
     path('api/', include(SemilleroRouter.urls)),
     path('api/', include(Tipo_EspecieRouter.urls)),
     path('api/', include(Tipo_PlagaRouter.urls)),
