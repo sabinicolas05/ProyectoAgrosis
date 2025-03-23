@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useFetchCultivo } from "@/hooks/trazabilidad/cultivo/useFetchCultivo";
+import  useFetchCultivoMap  from "@/hooks/trazabilidad/cultivo/CultivoMap";
 import { useDeleteCultivo } from "@/hooks/trazabilidad/cultivo/useDeleteCultivo";
 import DefaultLayout from "@/layouts/default";
 import { Button } from "@heroui/react";
@@ -10,6 +11,7 @@ import useAuth from "@/hooks/auth/useAuth";
 const CultivosList = () => {
   useAuth();
   const { data: cultivos, error } = useFetchCultivo();
+  const { data: cultivoMap } = useFetchCultivoMap();
   const { mutate: deleteCultivo } = useDeleteCultivo();
   const [cultivoSeleccionado, setCultivoSeleccionado] = useState<string | null>(null);
   const [mostrarModal, setMostrarModal] = useState(false);
@@ -38,8 +40,8 @@ const CultivosList = () => {
               <tr key={cultivo.id} className="border-b">
                 <td className="px-4 py-2">{cultivo.id}</td>
                 <td className="px-4 py-2">{cultivo.nombre}</td>
-                <td className="px-4 py-2">{cultivo.fk_especie_nombre || "Sin especie"}</td>
-                <td className="px-4 py-2">{cultivo.fk_semillero_nombre || "Sin semillero"}</td>
+                <td>{cultivo.fk_especie_nombre || "Sin especie"}</td>
+                <td>{cultivo.fk_semillero_nombre || "Sin semillero"}</td>
                 <td className="px-4 py-2">{cultivo.cantidad}</td>
                 <td className="px-4 py-2">{cultivo.fecha_siembra}</td>
                 <td className="px-4 py-2 flex gap-2">
