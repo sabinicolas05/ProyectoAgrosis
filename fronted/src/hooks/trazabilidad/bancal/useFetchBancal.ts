@@ -22,5 +22,8 @@ export const useFetchBancales = () => {
   return useQuery({
     queryKey: ["bancales"],
     queryFn: fetchBancales,
+    staleTime: 5000, 
+    refetchInterval: 5000, 
+
   });
 };

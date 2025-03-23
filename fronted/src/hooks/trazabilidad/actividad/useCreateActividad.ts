@@ -10,7 +10,7 @@ interface Actividad {
   estado: boolean;
 }
 
-const postActividad = async (nuevaActividad: Actividad) => {
+const CreateActividad = async (nuevaActividad: Actividad) => {
   const token = localStorage.getItem("token");
 
   const response = await fetch("http://127.0.0.1:8000/api/actividad/", {
@@ -29,9 +29,9 @@ const postActividad = async (nuevaActividad: Actividad) => {
   return response.json();
 };
 
-export const usePostActividad = () => {
+export const useCreateActividad = () => {
   return useMutation({
-    mutationFn: postActividad,
+    mutationFn: CreateActividad,
     onSuccess: (data) => {
       toast.success(`✅ Actividad "${data.descripcion}" registrada`);
     },
