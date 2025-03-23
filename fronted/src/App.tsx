@@ -20,6 +20,9 @@ import InventarioList from "./pages/inventario/inventarios/InventarioGet";
  import ResiduosList from "./pages/finanzas/residuo/ResiduoGet";
  import VentasList from "./pages/finanzas/ventas/VentasGet";
 
+ {/* 🔹 IOT */}
+ import SensorConfigForm from "@/pages/sensor/configuracion/ConfigsensorGet";
+
 
 import LoginForm from "@/pages/login";
 import RegisterForm from "./pages/register";
@@ -66,6 +69,11 @@ function App() {
          <Route element={<ProduccionList/>} path="/finanzas/produccion" />
          <Route element={<ResiduosList/>} path="/finanzas/residuos" />
          <Route element={<VentasList/>} path="/finanzas/venta" />
+
+         {/* 🔹 IOT */}
+         <Route element={<SensorConfigForm />} path="/iot/configuracion" />
+
+
 
 
           <Route element={<PricingPage />} path="/pricing" />
