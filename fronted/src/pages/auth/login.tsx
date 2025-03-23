@@ -5,8 +5,8 @@ import Label from "@/components/Label";
 import { useLogin } from "@/hooks/auth/useFetchLogin";
 import "react-toastify/dist/ReactToastify.css";
 
-// import LogoAgrosis from "@/assets/def_AGROSIS_LOGOTIC.png";
-// import SenaLogo from "@/assets/logo sena.png";
+ import LogoAgrosis from "@/assets/def_AGROSIS_LOGOTIC.png";
+ import SenaLogo from "@/assets/logo sena.png";
 import NotificationModal from "@/pages/NotificacionModal";
 import PasswordResetModal from "@/pages/user/ResetPassword/passwordReset";
 
@@ -18,7 +18,7 @@ export default function LoginForm() {
   return (
     <section className="flex items-center justify-center min-h-screen bg-gray-100 relative">
       {/* Logo SENA en la esquina superior izquierda */}
-      {/* <img src={SenaLogo} alt="Logo SENA" className="absolute top-4 left-4 w-20" /> */}
+      <img src={SenaLogo} alt="Logo SENA" className="absolute top-4 left-4 w-20" />
 
       <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg flex overflow-hidden">
         {/* Sección Izquierda - Formulario */}
@@ -72,7 +72,7 @@ export default function LoginForm() {
         {/* Sección Derecha - Imagen y mensaje */}
         <div className="w-1/2 bg-gray-200 flex flex-col items-center justify-center p-8">
           <p className="text-center text-lg font-semibold mb-4">¡Recuerda también descargar la App Móvil!</p>
-          {/* <img src={LogoAgrosis} alt="Logo Agrosis" className="w-40" /> */}
+          <img src={LogoAgrosis} alt="Logo Agrosis" className="w-40" />
         </div>
       </div>
 

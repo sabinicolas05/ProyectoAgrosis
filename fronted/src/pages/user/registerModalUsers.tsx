@@ -14,7 +14,7 @@ const RegisterUserModal = ({ onClose }) => {
     password: "",
     confirmPassword: "",
     is_staff: false,
-    is_superuser: false,
+    is_active: true, // Por defecto activo
   });
 
   const handleChange = (e) => {
@@ -78,8 +78,8 @@ const RegisterUserModal = ({ onClose }) => {
             <label htmlFor="is_staff">Staff</label>
           </div>
           <div className="flex gap-2">
-            <Checkbox name="is_superuser" checked={formData.is_superuser} onChange={handleChange} />
-            <label htmlFor="is_superuser">Superusuario</label>
+            <Checkbox name="is_active" checked={formData.is_active} onChange={handleChange} />
+            <label htmlFor="is_active">Activo</label>
           </div>
 
           <div className="flex justify-end gap-2 mt-4">
@@ -93,4 +93,3 @@ const RegisterUserModal = ({ onClose }) => {
 };
 
 export default RegisterUserModal;
-
