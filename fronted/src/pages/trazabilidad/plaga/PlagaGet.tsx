@@ -38,7 +38,7 @@ const PlagasList = () => {
           <tbody>
   {plagas?.map((plaga) => {
     // Usamos el campo tipo_plaga_nombre del serializer para obtener el nombre del tipo
-    const tipoPlaga = plaga.tipo_plaga_nombre ?? "Tipo de plaga no disponible";  // Asegúrate de que el campo es correcto
+    const tipoPlaga = plaga.fk_tipo_plaga_tipo ?? "Tipo de plaga no disponible";
     return (
       <tr key={plaga.id} className="border-b">
         <td className="px-4 py-2">{plaga.nombre}</td>

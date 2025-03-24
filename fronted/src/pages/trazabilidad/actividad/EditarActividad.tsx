@@ -72,6 +72,7 @@ const EditarActividadModal = ({ id, onClose }) => {
         ) : (
           <form onSubmit={handleSubmit}>
             <label>Usuario *</label>
+            <br />
             <select name="fk_usuario" value={formData.fk_usuario} onChange={handleChange} required>
               <option value="">Seleccione un usuario</option>
               {usuarios.map((usuario) => (
@@ -80,8 +81,9 @@ const EditarActividadModal = ({ id, onClose }) => {
                 </option>
               ))}
             </select>
-
+              <br />
             <label>Bancal *</label>
+            <br />
             <select name="fk_bancal" value={formData.fk_bancal} onChange={handleChange} required>
               <option value="">Seleccione un bancal</option>
               {bancales.map((bancal) => (
