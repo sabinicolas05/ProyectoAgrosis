@@ -8,13 +8,13 @@ import {
   FaHome,
   FaUser,
   FaCalendarAlt,
-  // FaMapMarkerAlt,
+  FaMapMarkerAlt,
   FaLeaf,
   FaSeedling,
   FaTachometerAlt,
   FaTree,
   FaDollarSign,
-   FaBug,
+  FaBug,
   FaBox,
   FaCloudRain,
   FaTemperatureHigh,
@@ -23,6 +23,7 @@ import { GiProcessor } from "react-icons/gi";
 
 const menuItems = [
   { id: 1, label: "Inicio", path: "/inicio", icon: <FaHome /> },
+  { id: 2, label: "Semillero", path: "/semilleros", icon: <FaCalendarAlt /> },
   {
     id: 3,
     label: "IoT",
@@ -44,6 +45,7 @@ const menuItems = [
       { id: 11, label: "Bancal", path: "/cultivo/bancal", icon: <FaTree /> },
       { id: 12, label: "Lotes", path: "/cultivo/lotes", icon: <FaTree /> },
       { id: 13, label: "Actividades", path: "/cultivo/actividades", icon: <FaTree /> },
+
       { id: 14, label: "Semillero", path: "/semilleros", icon: <FaCalendarAlt /> },
       
 
