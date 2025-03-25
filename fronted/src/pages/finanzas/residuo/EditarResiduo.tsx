@@ -5,6 +5,10 @@ import { Button, Input } from "@heroui/react";
 import { toast } from "react-toastify";
 
 const EditarResiduoModal = ({ id, onClose }: { id: string; onClose: () => void }) => {
+  if (!id) {
+    return <p className="text-red-500">Error: ID no válido</p>;
+  }
+
   const { data: residuo, isLoading } = useFetchResiduoById(id);
   const { mutate: updateResiduo, isLoading: isUpdating } = useUpdateResiduo();
 
@@ -15,11 +19,13 @@ const EditarResiduoModal = ({ id, onClose }: { id: string; onClose: () => void }
   });
 
   useEffect(() => {
+    console.log("Residuo recibido:", residuo, "isLoading:", isLoading);
+
     if (residuo && !isLoading) {
       setFormData({
-        cantidad: residuo.cantidad.toString() ?? "",
+        cantidad: residuo.cantidad ? residuo.cantidad.toString() : "",
         tipo_residuo: residuo.tipo_residuo ?? "",
-        fk_cultivo_id: residuo.fk_cultivo_id.toString() ?? "",
+        fk_cultivo_id: residuo.fk_cultivo_id ? residuo.fk_cultivo_id.toString() : "",
       });
     }
   }, [residuo, isLoading]);
@@ -44,7 +50,7 @@ const EditarResiduoModal = ({ id, onClose }: { id: string; onClose: () => void }
       {
         onSuccess: () => {
           toast.success("✅ Residuo actualizado correctamente");
-          onClose(); // Cierra el modal tras éxito
+          onClose();
         },
         onError: (error) => {
           console.error("❌ Error al actualizar residuo:", error);
@@ -61,6 +67,8 @@ const EditarResiduoModal = ({ id, onClose }: { id: string; onClose: () => void }
 
         {isLoading ? (
           <p className="text-center text-gray-500">Cargando residuo...</p>
+        ) : !residuo ? (
+          <p className="text-center text-red-500">⚠️ Error: No se encontró el residuo.</p>
         ) : (
           <form onSubmit={handleUpdate}>
             <label>Cantidad *</label>
