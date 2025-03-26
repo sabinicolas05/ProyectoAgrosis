@@ -6,27 +6,27 @@ import { useFetchPlagas, useDeletePlaga, useUpdatePlaga } from "@/hooks/trazabil
 import { Plaga } from "@/components/types/Plaga";
 import Tabla from "@/components/global/Tabla";
 import ReuModal from "@/components/global/ReuModal";
+import PlagaModal from "@/pages/trazabilidad/plaga/PlagaForm";
 
 const PlagasList: React.FC = () => {
   const [plaga, setPlaga] = useState<Plaga>({
-    id: undefined, // Se asegura que el id sea undefined o un número
+    id: undefined,
     nombre: "",
-    descripcion: "",
     fk_tipo_plaga: "",
   });
 
   const [selectedPlaga, setSelectedPlaga] = useState<Plaga | null>(null);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+  const [isRegisterModalOpen, setIsRegisterModalOpen] = useState(false);
 
   const { data: plagas, isLoading } = useFetchPlagas();
   const eliminarMutation = useDeletePlaga();
-  const actualizarMutation = useUpdatePlaga(); // Hook para actualizar plagas
+  const actualizarMutation = useUpdatePlaga();
   const navigate = useNavigate();
 
   const columns = [
     { name: "Nombre", uid: "nombre" },
-    { name: "Descripción", uid: "descripcion" },
     { name: "Tipo de Plaga", uid: "fk_tipo_plaga" },
     { name: "Acciones", uid: "acciones" },
   ];
@@ -34,9 +34,8 @@ const PlagasList: React.FC = () => {
   const handleEdit = (plaga: Plaga) => {
     setSelectedPlaga(plaga);
     setPlaga({
-      id: plaga.id ?? undefined, // Asegura que el id sea undefined si no está presente
+      id: plaga.id,
       nombre: plaga.nombre || "",
-      descripcion: plaga.descripcion || "",
       fk_tipo_plaga: plaga.fk_tipo_plaga || "",
     });
     setIsEditModalOpen(true);
@@ -55,11 +54,10 @@ const PlagasList: React.FC = () => {
   };
 
   const handleConfirmEdit = () => {
-    if (selectedPlaga && selectedPlaga.id !== undefined) {
+    if (selectedPlaga && selectedPlaga.id) {
       actualizarMutation.mutate({
         id: selectedPlaga.id,
         nombre: plaga.nombre,
-        descripcion: plaga.descripcion,
         fk_tipo_plaga: plaga.fk_tipo_plaga,
       });
       setIsEditModalOpen(false);
@@ -67,9 +65,8 @@ const PlagasList: React.FC = () => {
   };
 
   const transformedData = (plagas ?? []).map((plaga) => ({
-    id: plaga.id !== undefined ? plaga.id.toString() : "",
+    id: plaga.id?.toString() || "",
     nombre: plaga.nombre,
-    descripcion: plaga.descripcion,
     fk_tipo_plaga: plaga.fk_tipo_plaga_tipo || "No disponible",
     acciones: (
       <>
@@ -90,30 +87,32 @@ const PlagasList: React.FC = () => {
   }));
 
   return (
-    <DefaultLayout>
-      <div className="w-full flex flex-col items-center min-h-screen p-6">
-        <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold text-gray-700 mb-4">Lista de Plagas</h2>
+    <>
+      <DefaultLayout>
+        <div className="w-full flex flex-col items-center min-h-screen p-6">
+          <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Lista de Plagas</h2>
 
-          {isLoading ? (
-            <p className="text-gray-600">Cargando...</p>
-          ) : (
-            <>
-              <Tabla columns={columns} data={transformedData} />
-              <div className="flex justify-end mt-4">
-                <button
-                  className="px-5 py-2.5 bg-blue-600 text-white font-semibold rounded-lg 
-                             hover:bg-blue-700 transition-all duration-300 ease-in-out 
-                             shadow-md hover:shadow-lg transform hover:scale-105"
-                  onClick={() => navigate('/plagas/plaga')}
-                >
-                  Registrar Plaga
-                </button>
-              </div>
-            </>
-          )}
+            {isLoading ? (
+              <p className="text-gray-600">Cargando...</p>
+            ) : (
+              <>
+                <Tabla columns={columns} data={transformedData} />
+                <div className="flex justify-end mt-4">
+                  <button
+                    className="px-5 py-2.5 bg-blue-600 text-white font-semibold rounded-lg 
+                               hover:bg-blue-700 transition-all duration-300 ease-in-out 
+                               shadow-md hover:shadow-lg transform hover:scale-105"
+                    onClick={() => setIsRegisterModalOpen(true)}
+                  >
+                    Registrar Plaga
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
         </div>
-      </div>
+      </DefaultLayout>
 
       <ReuModal
         isOpen={isEditModalOpen}
@@ -128,14 +127,6 @@ const PlagasList: React.FC = () => {
           value={plaga.nombre || ""}
           onChange={(e) => setPlaga({ ...plaga, nombre: e.target.value })}
         />
-
-        <ReuInput
-          label="Descripción"
-          placeholder="Ingrese la descripción"
-          type="text"
-          value={plaga.descripcion || ""}
-          onChange={(e) => setPlaga({ ...plaga, descripcion: e.target.value })}
-        />
       </ReuModal>
 
       <ReuModal
@@ -146,8 +137,14 @@ const PlagasList: React.FC = () => {
       >
         <p>Esta acción es irreversible.</p>
       </ReuModal>
-    </DefaultLayout>
+
+      {isRegisterModalOpen && (
+        <PlagaModal id={null} onClose={() => setIsRegisterModalOpen(false)} />
+      )}
+    </>
   );
 };
 
 export default PlagasList;
+
+

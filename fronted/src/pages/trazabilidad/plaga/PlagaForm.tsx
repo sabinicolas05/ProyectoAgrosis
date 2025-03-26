@@ -18,7 +18,6 @@ const PlagaModal = ({ id = null, onClose }) => {
 
   const [formData, setFormData] = useState({
     nombre: "",
-    descripcion: "",
     fk_tipo_plaga: "",
   });
 
@@ -26,7 +25,6 @@ const PlagaModal = ({ id = null, onClose }) => {
     if (isEditMode && plaga && !isFetching) {
       setFormData({
         nombre: plaga.nombre ?? "",
-        descripcion: plaga.descripcion ?? "",
         fk_tipo_plaga: plaga.fk_tipo_plaga?.id ?? "",
       });
     }
@@ -69,16 +67,11 @@ const PlagaModal = ({ id = null, onClose }) => {
         ) : (
           <form onSubmit={handleSubmit}>
             <label>Nombre *</label>
+            <br />
             <Input type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
             
-            {!isEditMode && (
-              <>
-                <label>Descripción *</label>
-                <Input type="text" name="descripcion" value={formData.descripcion} onChange={handleChange} required />
-              </>
-            )}
-            
             <label>Tipo de Plaga *</label>
+            <br />
             <select name="fk_tipo_plaga" value={formData.fk_tipo_plaga} onChange={handleChange} required>
               <option value="">Seleccione un tipo de plaga</option>
               {tiposPlaga?.map((tipo) => (
@@ -102,4 +95,3 @@ const PlagaModal = ({ id = null, onClose }) => {
 };
 
 export default PlagaModal;
-
