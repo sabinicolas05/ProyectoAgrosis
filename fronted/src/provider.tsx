@@ -2,6 +2,7 @@ import type { NavigateOptions } from "react-router-dom";
 import { HeroUIProvider } from "@heroui/system";
 import { useHref, useNavigate } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Toaster } from "sonner";
 
 // 🔹 Instancia global de QueryClient
 const queryClient = new QueryClient();
@@ -19,6 +20,7 @@ export function Provider({ children }: { children: React.ReactNode }) {
     <QueryClientProvider client={queryClient}>
       <HeroUIProvider navigate={navigate} useHref={useHref}>
         {children}
+        <Toaster /> {/* ⬅ Agregamos Toaster aquí */}
       </HeroUIProvider>
     </QueryClientProvider>
   );

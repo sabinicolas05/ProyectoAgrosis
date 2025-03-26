@@ -24,6 +24,7 @@ const fetchPlagas = async () => {
   if (!response.ok) throw new Error("Error al obtener las plagas");
   return response.json();
 };
+
 export const useFetchPlagas = () => {
   return useQuery({
     queryKey: ["plagas"],
@@ -43,6 +44,7 @@ const fetchPlagaById = async (id: string) => {
   });
   return data;
 };
+
 export const useFetchPlagaById = (id: string) => {
   return useQuery({
     queryKey: ["plaga", id],
@@ -64,6 +66,7 @@ const createPlaga = async (nuevaPlaga: Plaga) => {
   if (!response.ok) throw new Error("Error al registrar la plaga");
   return response.json();
 };
+
 export const useCreatePlaga = () => {
   return useMutation({
     mutationFn: createPlaga,
@@ -82,11 +85,18 @@ const updatePlaga = async ({ id, ...plaga }: any) => {
   });
   return data;
 };
+
 export const useUpdatePlaga = () => {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: updatePlaga,
-    onSuccess: () => queryClient.invalidateQueries({ queryKey: ["plagas"] }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["plagas"] });
+      toast.success("✅ Plaga actualizada correctamente");
+    },
+    onError: () => {
+      toast.error("❌ Error al actualizar la plaga");
+    },
   });
 };
 
@@ -96,10 +106,17 @@ const deletePlaga = async (id: string) => {
     headers: { Authorization: `Bearer ${getToken()}` },
   });
 };
+
 export const useDeletePlaga = () => {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: deletePlaga,
-    onSuccess: () => queryClient.invalidateQueries({ queryKey: ["plagas"] }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["plagas"] });
+      toast.success("✅ Plaga eliminada correctamente");
+    },
+    onError: () => {
+      toast.error("❌ Error al eliminar la plaga");
+    },
   });
 };
