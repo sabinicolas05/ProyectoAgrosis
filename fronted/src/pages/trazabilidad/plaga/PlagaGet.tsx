@@ -7,6 +7,7 @@ import { Plaga } from "@/components/types/Plaga";
 import Tabla from "@/components/global/Tabla";
 import ReuModal from "@/components/global/ReuModal";
 import PlagaModal from "@/pages/trazabilidad/plaga/PlagaForm";
+import useFetchPlagaOptions from "@/hooks/trazabilidad/plaga/Map_plaga";
 
 const PlagasList: React.FC = () => {
   const [plaga, setPlaga] = useState<Plaga>({
@@ -24,6 +25,7 @@ const PlagasList: React.FC = () => {
   const eliminarMutation = useDeletePlaga();
   const actualizarMutation = useUpdatePlaga();
   const navigate = useNavigate();
+  const { tiposPlaga } = useFetchPlagaOptions();
 
   const columns = [
     { name: "Nombre", uid: "nombre" },
@@ -127,6 +129,18 @@ const PlagasList: React.FC = () => {
           value={plaga.nombre || ""}
           onChange={(e) => setPlaga({ ...plaga, nombre: e.target.value })}
         />
+        <label>Tipo de Plaga *</label>
+        <select
+          name="fk_tipo_plaga"
+          value={plaga.fk_tipo_plaga}
+          onChange={(e) => setPlaga({ ...plaga, fk_tipo_plaga: e.target.value })}
+          required
+        >
+          <option value="">Seleccione un tipo de plaga</option>
+          {tiposPlaga?.map((tipo) => (
+            <option key={tipo.id} value={tipo.id}>{tipo.nombre}</option>
+          ))}
+        </select>
       </ReuModal>
 
       <ReuModal
@@ -146,5 +160,3 @@ const PlagasList: React.FC = () => {
 };
 
 export default PlagasList;
-
-
