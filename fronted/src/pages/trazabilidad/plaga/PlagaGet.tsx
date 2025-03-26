@@ -9,6 +9,7 @@ import ReuModal from "@/components/global/ReuModal";
 
 const PlagasList: React.FC = () => {
   const [plaga, setPlaga] = useState<Plaga>({
+    id: undefined, // Se asegura que el id sea undefined o un número
     nombre: "",
     descripcion: "",
     fk_tipo_plaga: "",
@@ -20,7 +21,7 @@ const PlagasList: React.FC = () => {
 
   const { data: plagas, isLoading } = useFetchPlagas();
   const eliminarMutation = useDeletePlaga();
-  const actualizarMutation = useUpdatePlaga();
+  const actualizarMutation = useUpdatePlaga(); // Hook para actualizar plagas
   const navigate = useNavigate();
 
   const columns = [
@@ -32,7 +33,12 @@ const PlagasList: React.FC = () => {
 
   const handleEdit = (plaga: Plaga) => {
     setSelectedPlaga(plaga);
-    setPlaga(plaga);
+    setPlaga({
+      id: plaga.id ?? undefined, // Asegura que el id sea undefined si no está presente
+      nombre: plaga.nombre || "",
+      descripcion: plaga.descripcion || "",
+      fk_tipo_plaga: plaga.fk_tipo_plaga || "",
+    });
     setIsEditModalOpen(true);
   };
 
@@ -50,13 +56,18 @@ const PlagasList: React.FC = () => {
 
   const handleConfirmEdit = () => {
     if (selectedPlaga && selectedPlaga.id !== undefined) {
-      actualizarMutation.mutate({ id: selectedPlaga.id, ...plaga });
+      actualizarMutation.mutate({
+        id: selectedPlaga.id,
+        nombre: plaga.nombre,
+        descripcion: plaga.descripcion,
+        fk_tipo_plaga: plaga.fk_tipo_plaga,
+      });
       setIsEditModalOpen(false);
     }
   };
 
   const transformedData = (plagas ?? []).map((plaga) => ({
-    id: plaga.id?.toString() || "",
+    id: plaga.id !== undefined ? plaga.id.toString() : "",
     nombre: plaga.nombre,
     descripcion: plaga.descripcion,
     fk_tipo_plaga: plaga.fk_tipo_plaga_tipo || "No disponible",
@@ -114,7 +125,7 @@ const PlagasList: React.FC = () => {
           label="Nombre"
           placeholder="Ingrese el nombre"
           type="text"
-          value={plaga.nombre}
+          value={plaga.nombre || ""}
           onChange={(e) => setPlaga({ ...plaga, nombre: e.target.value })}
         />
 
@@ -122,7 +133,7 @@ const PlagasList: React.FC = () => {
           label="Descripción"
           placeholder="Ingrese la descripción"
           type="text"
-          value={plaga.descripcion}
+          value={plaga.descripcion || ""}
           onChange={(e) => setPlaga({ ...plaga, descripcion: e.target.value })}
         />
       </ReuModal>
