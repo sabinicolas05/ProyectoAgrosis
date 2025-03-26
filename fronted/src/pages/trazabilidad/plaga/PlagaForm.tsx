@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Button, Input } from "@heroui/react";
-import { toast } from "react-toastify";
 import useFetchPlagaOptions from "@/hooks/trazabilidad/plaga/Map_plaga";
 import useAuth from "@/hooks/auth/useAuth";
 import { useCreatePlaga } from "@/hooks/trazabilidad/plaga/useCreatePlaga";
@@ -38,22 +37,17 @@ const PlagaModal = ({ id = null, onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.nombre || !formData.fk_tipo_plaga) {
-      toast.error("Todos los campos son obligatorios.");
       return;
     }
 
     const action = isEditMode ? updatePlaga : createPlaga;
-    const successMessage = isEditMode ? "Plaga actualizada correctamente" : "Plaga registrada correctamente";
-    const errorMessage = isEditMode ? "Error al actualizar plaga" : "Error al registrar plaga";
-
+    
     action(isEditMode ? { id, ...formData } : formData, {
       onSuccess: () => {
-        toast.success(`✅ ${successMessage}`);
         onClose();
       },
       onError: (error) => {
-        console.error(`❌ ${errorMessage}:`, error);
-        toast.error(errorMessage);
+        console.error("Error al procesar la solicitud:", error);
       },
     });
   };
