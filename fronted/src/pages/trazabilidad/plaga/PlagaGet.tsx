@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import DefaultLayout from "@/layouts/default";
 import { ReuInput } from "@/components/global/ReuInput";
-import { addToast } from "@/components/global/toastUtils";
 import { useNavigate } from "react-router-dom";
 import { useFetchPlagas, useDeletePlaga, useUpdatePlaga } from "@/hooks/trazabilidad/plaga/usePlaga";
 import { Plaga } from "@/components/types/Plaga";
@@ -9,8 +8,6 @@ import Tabla from "@/components/global/Tabla";
 import ReuModal from "@/components/global/ReuModal";
 import PlagaModal from "@/pages/trazabilidad/plaga/PlagaForm";
 import useFetchPlagaOptions from "@/hooks/trazabilidad/plaga/Map_plaga";
-
-
 
 const PlagasList: React.FC = () => {
   const [plaga, setPlaga] = useState<Plaga>({
@@ -55,11 +52,10 @@ const PlagasList: React.FC = () => {
     if (selectedPlaga && selectedPlaga.id !== undefined) {
       eliminarMutation.mutate(selectedPlaga.id, {
         onSuccess: () => {
-          addToast({ title: "Éxito", description: "Plaga eliminada correctamente", variant: "success" });
-          setIsDeleteModalOpen(false);
+          setIsDeleteModalOpen(false); // No hay notificación
         },
         onError: () => {
-          addToast({ title: "Error", description: "No se pudo eliminar la plaga", variant: "destructive" });
+          // No hay notificación de error
         },
       });
     }
@@ -166,8 +162,6 @@ const PlagasList: React.FC = () => {
         <PlagaModal id={null} onClose={() => setIsRegisterModalOpen(false)} />
       )}
     </>
-
-    
   );
 };
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { useFetchPlagaById } from "@/hooks/trazabilidad/plaga/useFetchPlagaById";
-import { useUpdatePlaga } from "@/hooks/trazabilidad/plaga/useUpdatePlaga";
+import {  useFetchPlagaById } from "@/hooks/trazabilidad/plaga/useFetchPlagaById";
+import { useUpdatePlaga } from "@/hooks/trazabilidad/plaga/usePlaga";
 import { Button, Input } from "@heroui/react";
 import { toast } from "react-toastify";
 import useFetchPlagaOptions from "@/hooks/trazabilidad/plaga/Map_plaga"; 

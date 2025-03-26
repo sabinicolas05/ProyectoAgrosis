@@ -1,13 +1,6 @@
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { toast } from "react-toastify";
+import { useMutation, useQueryClient, useQuery } from "@tanstack/react-query";
 import axios from "axios";
-
-interface Plaga {
-  id?: string;
-  fk_tipo_plaga: number | null;
-  nombre: string;
-  descripcion?: string;
-}
+import { addToast } from "@heroui/toast";
 
 const API_URL = "http://127.0.0.1:8000/api/plaga/";
 const getToken = () => localStorage.getItem("token");
@@ -34,25 +27,6 @@ export const useFetchPlagas = () => {
   });
 };
 
-// Obtener una plaga por ID
-const fetchPlagaById = async (id: string) => {
-  const { data } = await axios.get(`${API_URL}${id}/`, {
-    headers: {
-      Authorization: `Bearer ${getToken()}`,
-      "Content-Type": "application/json",
-    },
-  });
-  return data;
-};
-
-export const useFetchPlagaById = (id: string) => {
-  return useQuery({
-    queryKey: ["plaga", id],
-    queryFn: () => fetchPlagaById(id),
-    enabled: !!id,
-  });
-};
-
 // Crear una nueva plaga
 const createPlaga = async (nuevaPlaga: Plaga) => {
   const response = await fetch(API_URL, {
@@ -70,8 +44,18 @@ const createPlaga = async (nuevaPlaga: Plaga) => {
 export const useCreatePlaga = () => {
   return useMutation({
     mutationFn: createPlaga,
-    onSuccess: () => toast.success("✅ Plaga registrada exitosamente"),
-    onError: () => toast.error("❌ Error al registrar la plaga"),
+    onSuccess: () => {
+      addToast({
+        title: "Éxito",
+        description: "Plaga registrada exitosamente",
+      });
+    },
+    onError: () => {
+      addToast({
+        title: "Error",
+        description: "Error al registrar la plaga",
+      });
+    },
   });
 };
 
@@ -92,10 +76,16 @@ export const useUpdatePlaga = () => {
     mutationFn: updatePlaga,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["plagas"] });
-      toast.success("✅ Plaga actualizada correctamente");
+      addToast({
+        title: "Éxito",
+        description: "Plaga actualizada correctamente",
+      });
     },
     onError: () => {
-      toast.error("❌ Error al actualizar la plaga");
+      addToast({
+        title: "Error",
+        description: "Error al actualizar la plaga",
+      });
     },
   });
 };
@@ -113,10 +103,16 @@ export const useDeletePlaga = () => {
     mutationFn: deletePlaga,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["plagas"] });
-      toast.success("✅ Plaga eliminada correctamente");
+      addToast({
+        title: "Éxito",
+        description: "Plaga eliminada correctamente",
+      });
     },
     onError: () => {
-      toast.error("❌ Error al eliminar la plaga");
+      addToast({
+        title: "Error",
+        description: "Error al eliminar la plaga",
+      });
     },
   });
 };

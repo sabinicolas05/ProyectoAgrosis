@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import { Button, Input } from "@heroui/react";
 import useFetchPlagaOptions from "@/hooks/trazabilidad/plaga/Map_plaga";
 import useAuth from "@/hooks/auth/useAuth";
-import { useCreatePlaga } from "@/hooks/trazabilidad/plaga/useCreatePlaga";
-import { useFetchPlagaById } from "@/hooks/trazabilidad/plaga/useFetchPlagaById";
-import { useUpdatePlaga } from "@/hooks/trazabilidad/plaga/useUpdatePlaga";
+import { useCreatePlaga, useUpdatePlaga} from "@/hooks/trazabilidad/plaga/usePlaga";
+import {  useFetchPlagaById } from "@/hooks/trazabilidad/plaga/useFetchPlagaById";
 
 const PlagaModal = ({ id = null, onClose }) => {
   useAuth();
