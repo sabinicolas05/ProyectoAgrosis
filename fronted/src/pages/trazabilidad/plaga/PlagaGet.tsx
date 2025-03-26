@@ -1,106 +1,140 @@
-import { useState } from "react";
-import { useFetchPlagas } from "@/hooks/trazabilidad/plaga/useFetchPlaga";
-import { useDeletePlaga } from "@/hooks/trazabilidad/plaga/useDeletePlaga";
-import useFetchPlagaOptions from "@/hooks/trazabilidad/plaga/Map_plaga";
+import React, { useState } from "react";
 import DefaultLayout from "@/layouts/default";
-import { Button } from "@heroui/react";
-import EditarPlagaModal from "@/pages/trazabilidad/plaga/EditarPlaga";
-import RegisterPlagaModal from "@/pages/trazabilidad/plaga/RegisterPlaga";
-import useAuth from "@/hooks/auth/useAuth";
+import { ReuInput } from "@/components/global/ReuInput";
+import { useNavigate } from "react-router-dom";
+import { useFetchPlagas, useDeletePlaga, useUpdatePlaga } from "@/hooks/trazabilidad/plaga/usePlaga";
+import { Plaga } from "@/components/types/Plaga";
+import Tabla from "@/components/global/Tabla";
+import ReuModal from "@/components/global/ReuModal";
 
-const PlagasList = () => {
-  useAuth();
-  const { data: plagas, error } = useFetchPlagas();
-  const { tiposPlaga } = useFetchPlagaOptions();
-  const { mutate: deletePlaga } = useDeletePlaga();
-  const [plagaSeleccionada, setPlagaSeleccionada] = useState<string | null>(null);
-  const [mostrarModal, setMostrarModal] = useState(false);
-  const [plagaAEliminar, setPlagaAEliminar] = useState<string | null>(null);
+const PlagasList: React.FC = () => {
+  const [plaga, setPlaga] = useState<Plaga>({
+    nombre: "",
+    descripcion: "",
+    fk_tipo_plaga: "",
+  });
 
-  if (error) return <p>Error al cargar plagas</p>;
+  const [selectedPlaga, setSelectedPlaga] = useState<Plaga | null>(null);
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
 
-  // Asegurarnos de que tenemos los tipos de plaga
-  console.log("Tipos de plaga:", tiposPlaga);
-  console.log("Plagas:", plagas);
+  const { data: plagas, isLoading } = useFetchPlagas();
+  const eliminarMutation = useDeletePlaga();
+  const actualizarMutation = useUpdatePlaga();
+  const navigate = useNavigate();
+
+  const columns = [
+    { name: "Nombre", uid: "nombre" },
+    { name: "Descripción", uid: "descripcion" },
+    { name: "Tipo de Plaga", uid: "fk_tipo_plaga" },
+    { name: "Acciones", uid: "acciones" },
+  ];
+
+  const handleEdit = (plaga: Plaga) => {
+    setSelectedPlaga(plaga);
+    setPlaga(plaga);
+    setIsEditModalOpen(true);
+  };
+
+  const handleDelete = (plaga: Plaga) => {
+    setSelectedPlaga(plaga);
+    setIsDeleteModalOpen(true);
+  };
+
+  const handleConfirmDelete = () => {
+    if (selectedPlaga && selectedPlaga.id !== undefined) {
+      eliminarMutation.mutate(selectedPlaga.id);
+      setIsDeleteModalOpen(false);
+    }
+  };
+
+  const handleConfirmEdit = () => {
+    if (selectedPlaga && selectedPlaga.id !== undefined) {
+      actualizarMutation.mutate({ id: selectedPlaga.id, ...plaga });
+      setIsEditModalOpen(false);
+    }
+  };
+
+  const transformedData = (plagas ?? []).map((plaga) => ({
+    id: plaga.id?.toString() || "",
+    nombre: plaga.nombre,
+    descripcion: plaga.descripcion,
+    fk_tipo_plaga: plaga.fk_tipo_plaga_tipo || "No disponible",
+    acciones: (
+      <>
+        <button
+          className="text-green-500 hover:underline mr-2"
+          onClick={() => handleEdit(plaga)}
+        >
+          Editar
+        </button>
+        <button
+          className="text-red-500 hover:underline"
+          onClick={() => handleDelete(plaga)}
+        >
+          Eliminar
+        </button>
+      </>
+    ),
+  }));
 
   return (
     <DefaultLayout>
-      <div className="overflow-x-auto">
-        <h2 className="text-lg font-bold mb-4">Plagas Registradas</h2>
-        <table className="min-w-full bg-white border border-gray-300 shadow-md">
-          <thead className="bg-gray-800 text-white">
-            <tr>
-              <th className="px-4 py-2">Nombre</th>
-              <th className="px-4 py-2">Tipo de Plaga</th>
-              <th className="px-4 py-2">Acciones</th>
-            </tr>
-          </thead>
-          <tbody>
-  {plagas?.map((plaga) => {
-    // Usamos el campo tipo_plaga_nombre del serializer para obtener el nombre del tipo
-    const tipoPlaga = plaga.fk_tipo_plaga_tipo ?? "Tipo de plaga no disponible";
-    return (
-      <tr key={plaga.id} className="border-b">
-        <td className="px-4 py-2">{plaga.nombre}</td>
-        <td className="px-4 py-2">{tipoPlaga}</td>
-        <td className="px-4 py-2 flex gap-2">
-          <Button
-            onClick={() => setPlagaSeleccionada(plaga.id)}
-            className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded"
-          >
-            Editar
-          </Button>
-          <Button
-            onClick={() => setPlagaAEliminar(plaga.id)}
-            className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded"
-          >
-            Eliminar
-          </Button>
-        </td>
-      </tr>
-    );
-  })}
-</tbody>
-        </table>
+      <div className="w-full flex flex-col items-center min-h-screen p-6">
+        <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-xl font-semibold text-gray-700 mb-4">Lista de Plagas</h2>
+
+          {isLoading ? (
+            <p className="text-gray-600">Cargando...</p>
+          ) : (
+            <>
+              <Tabla columns={columns} data={transformedData} />
+              <div className="flex justify-end mt-4">
+                <button
+                  className="px-5 py-2.5 bg-blue-600 text-white font-semibold rounded-lg 
+                             hover:bg-blue-700 transition-all duration-300 ease-in-out 
+                             shadow-md hover:shadow-lg transform hover:scale-105"
+                  onClick={() => navigate('/plagas/plaga')}
+                >
+                  Registrar Plaga
+                </button>
+              </div>
+            </>
+          )}
+        </div>
       </div>
 
-      <br />
-
-      <Button
-        onClick={() => setMostrarModal(true)}
-        className="bg-green-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+      <ReuModal
+        isOpen={isEditModalOpen}
+        onOpenChange={setIsEditModalOpen}
+        title="Editar Plaga"
+        onConfirm={handleConfirmEdit}
       >
-        Registrar una Plaga
-      </Button>
+        <ReuInput
+          label="Nombre"
+          placeholder="Ingrese el nombre"
+          type="text"
+          value={plaga.nombre}
+          onChange={(e) => setPlaga({ ...plaga, nombre: e.target.value })}
+        />
 
-      {mostrarModal && <RegisterPlagaModal onClose={() => setMostrarModal(false)} />}
+        <ReuInput
+          label="Descripción"
+          placeholder="Ingrese la descripción"
+          type="text"
+          value={plaga.descripcion}
+          onChange={(e) => setPlaga({ ...plaga, descripcion: e.target.value })}
+        />
+      </ReuModal>
 
-      {plagaSeleccionada && (
-        <EditarPlagaModal id={plagaSeleccionada} onClose={() => setPlagaSeleccionada(null)} />
-      )}
-
-      {plagaAEliminar && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 shadow-md rounded-lg w-96">
-            <h2 className="text-lg font-bold mb-4">¿Eliminar Plaga?</h2>
-            <p className="mb-4">Esta acción no se puede deshacer.</p>
-            <div className="flex justify-end gap-2">
-              <Button className="bg-gray-400 text-white px-4 py-2 rounded" onClick={() => setPlagaAEliminar(null)}>
-                Cancelar
-              </Button>
-              <Button
-                className="bg-red-500 text-white px-4 py-2 rounded"
-                onClick={() => {
-                  deletePlaga(plagaAEliminar);
-                  setPlagaAEliminar(null);
-                }}
-              >
-                Eliminar
-              </Button>
-            </div>
-          </div>
-        </div>
-      )}
+      <ReuModal
+        isOpen={isDeleteModalOpen}
+        onOpenChange={setIsDeleteModalOpen}
+        title="¿Estás seguro de eliminar esta plaga?"
+        onConfirm={handleConfirmDelete}
+      >
+        <p>Esta acción es irreversible.</p>
+      </ReuModal>
     </DefaultLayout>
   );
 };
